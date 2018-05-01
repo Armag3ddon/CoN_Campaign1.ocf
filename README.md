@@ -1,6 +1,6 @@
 # Broken Kingdom Campaign: The Hero of Evergreen
 
-This is a project for the game [OpenClonk] (https://www.openclonk.org/). The goal is to create a campaign, a series of scenarios, that tell a story happening after the official campaign of OpenClonk.
+This is a project for the game [OpenClonk](https://www.openclonk.org/). The goal is to create a campaign, a series of scenarios, that tell a story happening after the official campaign of OpenClonk.
 
 ## Introduction of the campaign
 
@@ -11,11 +11,11 @@ It has been five years since Harx' death. A relative peace has been established 
 
 ## Getting Started
 
-You need the newest release of [OpenClonk] (https://www.openclonk.org/) installed in order to play this since it is a content package for that very game.
+You need the newest release of [OpenClonk](https://www.openclonk.org/) installed in order to play this since it is a content package for that very game.
 
 ### Installing
 
-To get it running, simply clone the repository into the OpenClonk folder or download my official, packed [releases] (https://forum.openclonk.org/topic_show.pl?tid=3372) from the OpenClonk forum.
+To get it running, simply clone the repository into the OpenClonk folder or download my official, packed [releases](https://forum.openclonk.org/topic_show.pl?tid=3372) from the OpenClonk forum.
 
 ## Authors
 
@@ -23,4 +23,4 @@ Apart from me, there are various authors.txt file scattered around in the projec
 
 ## License
 
-The package is released under [CC BY 3.0] (https://creativecommons.org/licenses/by/3.0/) if not stated otherwise (in which cases see authors.txt in object folders).
+The package is released under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) if not stated otherwise (in which cases see authors.txt in object folders).
