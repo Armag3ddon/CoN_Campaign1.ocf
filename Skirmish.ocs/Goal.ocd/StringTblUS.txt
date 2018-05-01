@@ -1,0 +1,17 @@
+# The Goal
+
+Goal_Name0=The Skirmish
+Goal_Desc0=Just arriving at the camp.
+Goal_Name1=Pass the time
+Goal_Desc1=You have to wait for Samuel to finish the briefing with the general. Pass the time by talking to people around the camp.
+Goal_Name2=Talk to Samuel
+Goal_Desc2=It looks as if Samuel is back from the general. Whenever you are ready and have explored the camp enough, go to talk to him.
+Goal_Name3=Bridge Building
+Goal_Desc3=Your mission will be to rescue the captured pilots. In order to do so, you will have to protect the pioneers while they construct a bridge across the crevices. Expect enemy resistance.
+Goal_Name4=Bridge Building
+Goal_Desc4=Guide the pioneers to build a bridge to the captive pilots and rescue those.
+Goal_Name5=Get the metal
+Goal_Desc5=Find a way through the Dark Forest and into the Forward Bunker. Retrieve the metal stored in there and bring it to the armory.
+
+# Extra goals
+

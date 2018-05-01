@@ -1,0 +1,3 @@
+Name=Imperial Flamethrower
+Description=Ancient weapon of war. [Use] to spray your target with deadly fire.
+MsgReloading=Reloading!

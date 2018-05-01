@@ -1,0 +1,445 @@
+# Intro
+
+MsgIntro1=Finally, the encampment. I'm exhausted!
+MsgIntro2=Halt! State your business.
+MsgIntro3=These are my orders. The general wants to see us.
+MsgIntro4=Sir!
+MsgIntro5=At ease, soldier. Just open the gate for us, please.
+MsgIntro6=Yes, Sir!
+MsgIntro7=Let's go, everyone.
+MsgIntro8=General! Colonel Gertner, reporting as ordered.
+MsgIntro8_Paula=...Colonel?!
+MsgIntro9=Colonel. Where is your hat?
+MsgIntro10=Excuse me, Sir. Right here, Sir.
+MsgIntro11=Very good, Colonel.
+MsgIntro12=Your men must be tired, Colonel. Go send them to fetch something to eat. We have much to discuss and I will give you the details in a minute.
+MsgIntro13=Yes, Sir.
+MsgIntro14=Err...men! You go get yourselves something to eat...uhm...dismissed!
+MsgIntro15=Sure thing, SIR!
+MsgIntro16_Single=Come one, Newbie. The <i>Colonel</i> gave us orders.
+MsgIntro16_Multi=Come one, Newbie. The <i>Colonel</i> gave us orders.
+MsgIntro17=Cook! Fix us something up to eat, will ya? We had a long trip.
+MsgIntro18=What is that? No 'Hellos' anymore, nowadays? Alright, then. Have a seat, Your Highness!
+MsgIntro19=Hah. I like the cook, already.
+MsgIntro20=Bread. Very fresh. Right now, the best I've got. For a hot meal, you have to wait until this evening.
+MsgIntro21=Thanks, sweetie. We appreciate this.
+MsgIntro22=Why are you giving Samuel such a hard time? What's up with him being a Colonel?
+MsgIntro23=Cutting right to the chase, yes, Newbie? Well, I probably should have kept quiet.
+MsgIntro24=Well...I didn't know he was a Colonel. He never really told me his rank. It was clear that he outranked me but a <i>Colonel</i>? I don't understand that.
+MsgIntro25=Is that something special? A Colonel?
+MsgIntro26=A high ranking officer? In a watchtower at the Kutorian border? Sure is! I never heard of a Colonel being stationed along the wall. A Captain, yeah. Maybe a Major. But that's it.
+MsgIntro27=Higher ranks are far too valuable to be wasted at the border...I can't believe it. He never wore his beret before.
+MsgIntro28=Why should he have told you why he was stationed there anyway?
+MsgIntro29_Friendly=Oh Newbie. Us two, we go way back. Samuel was part of the force which helped my village against the raiders. He recruited me into the army.
+MsgIntro29_Unfriendly=Hm? Oh. It is just unusual, don't you think?
+MsgIntro30=Ah, that was nice.
+MsgIntro31=We should probably check on Sam now. I guess he'll have his orders ready.
+
+# Briefing
+
+MsgBriefing1=Okay, everyone. Come with me. I have orders from the general.
+MsgBriefing2=We get on top of the observation island for the briefing. Follow me.
+MsgBriefing3=Sure...
+MsgBriefing4=Colonel.
+MsgBriefing5=At ease, gunnery sergeant. Just passing through. Give us some room over there.
+MsgBriefing6=So, <i>Colonel</i>. Tell us the magic plan.
+MsgBriefing7=Paula...
+MsgBriefing8=What? You want to pull rank on me?
+MsgBriefing9=No, Paula. I won't. I certainly could, now that you point it out.
+MsgBriefing10=I know very well that I never told you my rank. I didn't want things to be awkward between us, you know? I never fancied all those 'Sirs' and salutes.
+MsgBriefing11=Well, thank you very much!
+MsgBriefing12=Stop it now! What do you want me to do? Apologise for not wearing my hat?!
+MsgBriefing13=It is up to you to settle the argument. What do you do?
+MsgBriefing13_A=Side with Paula.
+MsgBriefing13_B=Stay neutral.
+MsgBriefing13_C=Side with Samuel.
+MsgBriefing14_A=You could have said something, at least when it became clear that we rejoin the army.
+MsgBriefing14_B=Please, you two. Isn't there a battle to fight?
+MsgBriefing14_C=Come now, Paula. I'm sure Samuel didn't mean any harm with this.
+MsgBriefing15_A=Careful now, Newbie. I cut Paula some slack because I've known her for years. But you are still talking to your commanding officer.
+MsgBriefing15_B=Yeah...yes. You are absolutely right, Newbie.
+MsgBriefing15_C=Yeah, sure. You side with your most favourite person anyway.
+MsgBriefing15_Memory1=(Samuel will remember this)
+MsgBriefing15_Memory2=(You stayed neutral on this)
+MsgBriefing15_Memory3=(Paula will remember this)
+MsgBriefing16_A_Single=Don't snap at Newbie, Sam, when it's me you are angry with. But it doesn't matter. Let's talk battle, will ya?
+MsgBriefing16_A_Multi=Don't snap at the Newbies, Sam, when it's me you are angry with. But it doesn't matter. Let's talk battle, will ya?
+MsgBriefing16_B=Sure, I guess. There are more important things at hand.
+MsgBriefing16_C=Paula, enough. Please calm your anger now. We need to discuss battle tactics.
+MsgBriefing17=It's looking grim. Not only does the enemy outnumber us, they're also in the way of us getting to Evergreen.
+MsgBriefing18=It's pure luck the general is here. He was on a routine check along the border when the attack hit.
+MsgBriefing19=Unfortunately, he didn't bring his full staff with him. Major general Guinot is occupied with managing provisions, so I will be the general's tactical advisor.
+MsgBriefing20=Meaning you will not lead us into battle.
+MsgBriefing21=Exactly. You will lead the attack. The enemy has total air superiority because they captured a full unit of pilots a couple of days ago. For now, the general managed to hold the line with artillery.
+MsgBriefing22=But sooner or later, air strikes will do us in. So we need those pilots. They are held underground. We have secretly mined a tunnel, so a strike team has got a chance.
+MsgBriefing23=I will oversee a general assault but that is just a distraction. You will do the rescue mission. I assign a squad of pioneers to you.
+MsgBriefing24=They need to construct a bridge across some lava lakes. You must protect them while they do that and then fight your way to the prisoners when the bridge is done.
+MsgBriefing25=Expect some resistance. We will occupy most of them but they won't just leave the prisoners unguarded. However, work as fast as you can. Men up here will be dieing.
+MsgBriefing26_Single=Newbie. You have some experience now. So I'll promote you to Corporal, so you can give orders. Most troops here come from the watchtowers and are still green.
+MsgBriefing26_Multi=Newbies. You have some experience now. So I'll promote you to Corporals, so you can give orders. Most troops here come from the watchtowers and are still green.
+MsgBriefing27=Any questions? No? Good. I have written orders ready for you, so you can get yourself some weapons from the armory.
+MsgBriefing28_Single=Okay, Newbie. It's getting serious. Let's get down to the arsenal.
+MsgBriefing28_Multi=Okay, Newbies. It's getting serious. Let's get down to the arsenal.
+MsgBriefing29=We are in for something. You go and get whatever you need. Show your orders to the guard, will ya?
+MsgBriefing30=Pioneers reporting in, Sir!
+MsgBriefing31_Single=Soldiers. We are ready as soon as the Corporal has got some weapons. Stand ready.
+MsgBriefing31_Multi=Soldiers. We are ready as soon as the Corporals have got some weapons. Stand ready.
+
+# First Assault
+
+MsgFirstAssault1=Attention, soldiers!
+MsgFirstAssault2=The attack will start soon. We will begin at the same time and work as fast as we can.
+MsgFirstAssault3_Single=You will listen to what commands the Corporal gives you.
+MsgFirstAssault3_Multi=You will listen to what commands the Corporals give you.
+MsgFirstAssault4=On a 'Advance', carefully proceed forward with the bridge. Everyone not carrying the bridge will provide cover from missiles.
+MsgFirstAssault5=On a 'Halt', bridge-carriers will stop.
+MsgFirstAssault6=On a 'Fall back', you back up and get out of trouble.
+MsgFirstAssault7=And I heard you guys are pretty good at dynamite chucking. So, on a 'Blast' command, you hit them with a bunch of sticks.
+MsgFirstAssault8=Understood?
+MsgFirstAssault9=Yes, Sir!
+MsgFirstAssault10=For controlling the squad, use the Command button now available on your GUI or press 'C'.
+MsgFirstAssault11=In the Command menu, you can select the desired command. You can also press a number key associated with a command.
+MsgFirstAssault12=Sound the attack.
+MsgFirstAssault13=That was the signal. We start now!
+
+# Paula Dialogue
+
+MsgPaula1=Is Sam ready yet?
+MsgPaulaA1=No, he's still with the general.
+MsgPaula2=Well, then. It is no use waiting here. Look around, familiarise yourself with the camp and the people, will ya?
+MsgPaulaA2=Are you alright?
+MsgPaula3_Friendly=Sure, Newbie. Thanks for asking. I was just surprised, nothing major. I'll be good.
+MsgPaula3_Unfriendly1=What do you mean?
+MsgPaula3_Unfriendly2=You seemed to be upset with Sam.
+MsgPaula3_Unfriendly3=Jumping to conclusions, are we? That's a bit presumptuous, Newbie.
+MsgPaulaLeave=I'll have a look around.
+MsgPaulaPrep1=Ready to go?
+MsgPaulaPrepA1=Ready!
+MsgPaulaPrepA1_Safety=You sure?
+MsgPaulaPrepA1_Safety2=Err, no.
+MsgPaulaPrepA1_Safety3=Yes!
+MsgPaulaPrep2_Positive=Okay.
+MsgPaulaPrep2_Negative=What about the others? Everyone should be here.
+MsgPaulaPrepA2=I don't know what weapons to get.
+MsgPaulaPrep3=I've seen the details. We'll try to construct bridges over lava crevices.
+MsgPaulaPrep3_Short=We'll construct|bridges.
+MsgPaulaPrep4=So, get some ranged weapons, to fight off any enemy marksman.
+MsgPaulaPrep4_Short=You need|ranged weapons.
+MsgPaulaPrep5=But it will also be your responsibility to protect the pioneers when they do their work. Better pack a shield.
+MsgPaulaPrepA3=I'm worried.
+MsgPaulaPrep6_AllNeg=Now is no time for worries. Pull yourself together.
+MsgPaulaPrep6_Neg=I sympathise with you. Just try and stay focussed, will ya?
+MsgPaulaPrep6_Pos=I understand, Newbie. I was also worried when I got into my first fights. But I've got your back, we'll make it.
+MsgPaulaPrep6_AllPos=Oh, Newbie! I keep forgetting you're new to this all. I'll protect you, we'll make it. Okay?
+MsgPaulaPrepLeave=Not yet.
+
+# Paula Messages
+
+CommandPaulaPioneers=Pioneers, advance!
+CommandPaulaNewbie_Single=We are spotted. Newbie, quickly, attack them and protect the pioneers!
+CommandPaulaNewbie_Multi=We are spotted. Newbies, quickly, attack them and protect the pioneers!
+CommandPaulaCloseCombat=Pioneers! Prepare for close combat! Take that position!
+CommandPaulaGoodJob=Good job! They retreated. Let's get to building another bridge.
+
+# Samuel Dialogue
+
+MsgSamuel1=Are you ready?
+MsgSamuelA1=Yes.
+MsgSamuel2_Positive=Alright.
+MsgSamuel2_Negative=It seems that not everyone is here. Let's wait.
+MsgSamuelLeave=Not yet.
+
+# Prisoner Dialogue
+
+MsgPrisoner1=I am not supposed to talk to anyone.
+MsgPrisoner1_Short=I shouldn't|talk.
+MsgPrisonerA1=Why?
+MsgPrisoner2=Because I am a prisoner. I thought that was obvious.
+MsgPrisoner2_Short=Because I am|a prisoner.
+MsgPrisoner3=Smart answer for a prisoner.
+MsgPrisoner4=So? I already am imprisoned.
+MsgPrisonerA2=Who are you?
+MsgPrisoner5=Is your job to interrogate the prisoner then? Well, it is no secret. I already told my story.
+MsgPrisoner5_Short=My story|is simple.
+MsgPrisoner6=I am a merchant that happens to be from Kutor. Alas! No one told me that we were to invade you or else I would have stayed clear of the Republic.
+MsgPrisoner6_Short=I am a merchant|from Kutor.
+MsgPrisoner7=Now I am charged with espionage, of course. No one believes that you just accidentally got caught between the lines.
+MsgPrisoner7_Short=I'm charged|with espionage.
+MsgPrisoner8=I guess I got lucky that there's this task here to do. The general already threatened to shoot me.
+MsgPrisoner8_Short=The general wanted|to shoot me.
+MsgPrisonerA3=Why have you attacked us?
+MsgPrisoner9=What? Why do you ask me? Obviously, our king has decided that the time was right to seize your land.
+MsgPrisoner9_Short=Why we|attacked you?
+MsgPrisoner10=Whether or not this is a wise decision, I don't know. Really, I don't have any military experience.
+MsgPrisoner10_Short=I don't know!
+MsgPrisoner11=But I guess this is how the world works. Some ruler wants more land, so armies go to war.
+MsgPrisoner11_Short=But this is how|politics work.
+MsgPrisoner12=From what I heard, your king Harx planned his own little campaign into Kutor once.
+MsgPrisoner12_Short=Harx once wanted|to invade us.
+MsgPrisonerA4=Will your people free you?
+MsgPrisoner13=What kind of question is that. Sure, I think. After all, that is why you would call them 'my people'.
+MsgPrisoner13_Short=What? Will my|people free me?
+MsgPrisoner14=But don't get me wrong. I have nothing against you folk. If you would set me free, I'd be equally happy.
+MsgPrisoner14_Short=Probably? Maybe you'll|set me free.
+MsgPrisoner15=Republicans are, after all, my customers. I came here to sell Kutorian delicacies.
+MsgPrisoner15_Short=Republicans are|good customers.
+MsgPrisoner16=But with this war, I figure, Kutorian food will be out of style for a few years.
+MsgPrisoner16_Short=But now my|business is ruined!
+MsgPrisoner17=So, if I don't lose my life, at least my livelihood is already lost.
+MsgPrisonerLeave=Then don't talk.
+
+# Sergeant Miller Dialogue (General's guard)
+
+MsgMiller1=I'm on guard duty, %s. No time to talk.
+
+# Cook Dialogue
+
+MsgCook1=Dinner's not ready yet.
+MsgCookA1=What are you cooking?
+MsgCook2=Mushroom stew. Nothing fancy, I know. But beggars can't be choosers, right? Wipf steak is currently not in stock.
+MsgCook2_Short=Best mushroom|stew in the area.
+MsgCookA2=How much food do we have?
+MsgCook3=Sorry, %s, but I cannot give you that information. The general gave strict orders.
+MsgCook3_Short=Sorry, provision info|is top secret.
+MsgCook4=We can't have people going around, spreading rumors about a food shortage and lower the morale.
+MsgCook4_Short=General's orders.
+MsgCook5=So, be content with this: there is enough food for now, will ya?
+MsgCookA3=How is the battle faring?
+MsgCook6=From what I've heard: it's bad out there. The enemy has dug in, we are dug in. It's a stalemate right now.
+MsgCook6_Short=The fighting is|pretty grim.
+MsgCook7=It's been five days and every new day, there are fewer meals to cook.
+MsgCook7_Short=Five days and|nothing changed.
+MsgCook8=The last that I've heard is that the soldiers started to call the battlefield 'No Man's Land'. Not a pretty name.
+MsgCook8_Short=The battlefield is|called 'No Man's Land'.
+MsgCook9=Both sides continue to do charges and run into heavy resistance. And the constant artillery bombardment drives the soldiers mad.
+MsgCook10=The general is eager to press on, saying we must reach Evergreen as fast as possible. So we fight.
+MsgCook10_Short=General says we|need to reach Evergreen.
+MsgCook11=But our troops are inexperienced, green. To be honest, you don't like you've seen much fighting yourself.
+MsgCookLeave=Okay, I'll wait.
+
+# Gunny Hartman Dialogue
+
+MsgGunny1=%s.
+MsgGunnyA1=Reporting for duty, Sir!
+MsgGunny2=What is this? You don't look like a specialist, %s.
+MsgGunny3=Is that supposed to be a little joke, %s Joker?
+MsgGunnyA2=What are you doing here?
+MsgGunny4=Excuse me, but I just happened to miss the general's insignia that make me answer to YOU.
+MsgGunny5=Also, what kind of idiot does it take to not recognise a coordinated artillery attack when seeing it?
+MsgGunnyLeave=Sorry for the disturbance, Sir.
+
+# Gunnery Sergeant Messages
+
+RndMsgGunny1=You heard it, boys.
+RndMsgGunny2=At my command!
+RndMsgGunny3=Platoon adjust, number|four, one round!
+RndMsgGunny4=Sweep ten mils,|four deflections!
+RndMsgGunny5=Use gunner's quadrant!
+MsgGunnyFire=Fire!
+
+# Scout Messages
+
+RndMsgScout1=Right on target, Sir!
+RndMsgScout2=Adjust one, Sir!
+RndMsgScout3=Adjust two, Sir!
+RndMsgScout4=Adjust three, Sir!
+RndMsgScout5=Negative on target, Sir!
+
+# Medic Dialogue
+
+MsgMedic1=You need something?
+MsgMedicA1=You have painkillers?
+MsgMedic2=If only. Our supplies are thinly stretched. Sorry, but unless you are in heavy pain, I can't give you some.
+MsgMedic2_Short=Painkillers? Better|pick a number.
+MsgMedicA2=How are the wounded?
+MsgMedic3=Miserable, of course. What we have here, I wouldn't even call a field hospital.
+MsgMedic3_Short=The wounded are|not in well shape.
+MsgMedic4=The constant pounding of the shells rattles your every bone. That is no condition in which to recover from bullet wounds.
+MsgMedic4_Short=The shelling|doesn't help.
+MsgMedic5=Unless we get to move to a better facility pretty soon, some of the wounded might not make it.
+MsgMedic5_Short=Ideally we move|everyone soon.
+MsgMedicLeave=No. Sorry to bother you.
+
+# Corporal Smith Dialogue
+
+MsgSmith1=Halt, %s.
+MsgSmithA1=Corporal. What are you guarding?
+MsgSmith2=The arsenal.
+MsgSmith2_Short=I guard|the armory.
+MsgSmith3=Can I get some new gear? My old stuff isn't really up to the task.
+MsgSmith3_Short=Can I get new gear?
+MsgSmith4=Not unless you show me a permission slip from your commanding officer.
+MsgSmith4_Short=Not without permission.
+MsgSmith5=He is currently talking with the general.
+MsgSmith5_Short=My commanding|officer is busy.
+MsgSmith6=Well, then I guess you have to wait for him to finish. Waiting is the soldier's dearest task.
+MsgSmith6_Short=Well, then the|answer is no.
+MsgSmithA2=Corporal. Is the fighting bad?
+MsgSmith7=Another green soldier? Great. Just what we need.
+MsgSmith7_Short=You have no|experience, right?
+MsgSmith8=And you are not green anymore?
+MsgSmith8_Short=And you?
+MsgSmith9=I am not. You don't get to be a corporal without seeing some action. And I can tell you, the action around here isn't pleasant.
+MsgSmith9_Short=No. That's why|I am a corporal.
+MsgSmith10=The Kutorians surprised us. I came here together with General Terry. This place was perfect for an ambush and the general knew that.
+MsgSmith10_Short=The Kutorians|surprised us.
+MsgSmith11=We were prepared for an attack...just not for the strength of their force. I couldn't believe how many had already crossed the border.
+MsgSmith11_Short=They outnumbered us.
+MsgSmith12=They had the numbers and a lot of heavy weapons. Many died in that first attack.
+MsgSmith13=Only because the general thought quickly enough and rallied us did we survive. Still, it was a massacre.
+MsgSmith13_Short=But the general|saved us.
+MsgSmith14=Guarding this post will keep me away from the fighting for a while. I don't envy you for going in.
+MsgSmithA3=Corporal. Here are my orders.
+MsgSmith15=Orders, you say? Let me see... yes, everything in order. Go get yourself whatever you need.
+MsgSmith16=You are free to pass.
+MsgSmithLeave=I will halt.
+
+# Corporal Smith Messages
+
+CommandMsgSmith1=What are you doing, %s? You are not cleared for entry.
+
+# Private Marie
+
+MsgMarie1=Hey.
+MsgMarieA1=What are you doing?
+MsgMarie2=Trying to snipe every enemy who is dumb enough to stick his head out of the wall.
+MsgMarieA2=Are you successful?
+MsgMarie3=Think I got one today. Not sure.
+MsgMarieLeave=Bye.
+
+# Corporal Mark
+
+# 1 = MsgRankGreeting
+MsgMarkA1=How is it?
+MsgMark2=How is what? The guarding? It's guarding.
+MsgMark3=The fighting, I meant.
+MsgMark4=Bad. Haven't you seen the wounded?
+MsgMarkA2=Why are you not sniping?
+MsgMark5=Because I'm not good at it, that's why.
+# Leave = MsgCorporalLeave
+
+# Corporal Mark Messages
+
+CommandMarkPickup=Please leave that be, %s. I'd hate to have to report you for theft.
+
+# Private Derek
+
+# 1 = MsgRankGreeting
+MsgDerekA1=Why are you hammering?
+MsgDerek2=I'm drilling a whole through to the armory, for a communication line.
+# Leave = MsgPrivateLeave
+
+# Private Derek Messages
+
+BurntMsgDerek1=What the heck? Who did that?!
+
+# Major general Guinot
+
+# 1 = MsgRankGreeting
+MsgGuinotA1=May I ask about the status of the fighting?
+MsgGuinot2=You may not, Soldier. That request is most unusual.
+MsgGuinot2_Short=Soldiers don't|ask questions.
+MsgGuinot3=You refer to your commanding officer for information. Who is that?
+MsgGuinot3_Short=Except maybe|to their officer.
+MsgGuinot4=Colonel Gertner, Sir.
+MsgGuinot5=I will keep an eye on you.
+MsgGuinotA2=Do you know how long the general's meeting will last?
+MsgGuinot6=Why do inquire about the general?
+MsgGuinot7=Not the general, my officer is with him.
+MsgGuinot8=Then you have to wait for them to finish.
+MsgGuinotLeave=Major General.
+
+# Major general Guinot Messages
+
+RndMsgGuinot1=A hundred kilos|of mushrooms...
+RndMsgGuinot2=Around 3.000 shells...
+RndMsgGuinot3=Three assault teams...
+RndMsgGuinot4=5 wounded in a day...
+RndMsgGuinot5=Bullets.|Still enough...
+
+# Lieutenant Bort
+
+# 1 = MsgRankGreeting
+MsgBortA1=You have a torch on you!
+MsgBort2=I do.
+MsgBort2_Short=I do have|a torch, yes.
+MsgBort3=Isn't that dangerous?
+MsgBort4=Not for me, it's not. I am a highly trained professional when it comes to explosives.
+MsgBort4_Short=I know how|to handle explosives.
+MsgBort5=But if I see you handling a torch down here, I'll kill you. Mark my words.
+MsgBort5_Short=You refrain from|having a torch down here!
+MsgBortA2=You are the armorer?
+MsgBort6=For explosives, yes. At least I am now.
+MsgBort7=I was a specialist when I came to this camp. But with the most experience in my field, the major general made me a Lieutenant on the spot!
+MsgBort7_Short=Few days ago,|I was a specialist.
+MsgBort8=Being understaffed, you climb the ladder fast in this camp.
+MsgBort8_Short=Now I'm|a Lieutenant!
+MsgBort9=But I still feel more rank-and-file, if you get my meaning.
+MsgBortLeave=Lieutenant.
+
+# Lieutenant Bort Messages
+
+CommandBortPickup=Unless you got a very good reason for taking that, you better leave it be.
+
+# Private Flix
+
+MsgFlix1=You came far.
+MsgFlixA1=Isn't this dangerous?
+MsgFlix2=A little bit. But the snipers aren't accurate at this range.
+MsgFlix2_Short=Snipers won't|hit me here.
+MsgFlix3=That's why we snipe from the other trench.
+MsgFlix4=From here, I still can scout enough.
+MsgFlix4_Short=But I can|scout.
+MsgFlixA2=What do you see?
+MsgFlix5=The enemy has dug in. For good.
+MsgFlix5_Short=The enemy has|dug in.
+MsgFlix6=I don't see how we could strike through and push them back. At least with our numbers since the last battle.
+MsgFlix6_Short=No good angle|of attack.
+MsgFlix7=Was it that bad?
+MsgFlix8=It was. Moreover, the enemy has captured a bunch of our men.
+MsgFlix8_Short=Also, some men|got captured.
+MsgFlix9=Captured?
+MsgFlix10=If they're lucky, yeah.
+MsgFlixLeave=I'll find the way back.
+
+# Private Flix Messages
+
+CommandFlixPickup=We're all alone in this trench. You think twice before taking things I need, will ya?
+
+# Private Farina
+
+# 1 = MsgRankGreeting
+MsgFarinaA1=Can I go outside?
+MsgFarina2=It's your life throw away. What do I care?
+MsgFarina3=But don't lure any one of them enemies in, will ya?
+MsgFarina4=Otherwise, I'll find you whereever you are and kill you again.
+# Leave = MsgPrivateLeave
+
+# Private Farina Messages
+
+CommandMsgFarina1=%s! The gate must be kept closed at all times!
+CommandMsgFarina2=What the heck.
+
+# Private Mayer
+
+# 1 = MsgRankGreeting
+MsgMayerA1=I need to leave.
+MsgMayer2=Yeah. Unfortunately, deserters will be shot.
+MsgMayer3=Just kidding.
+MsgMayer4=I figured.
+# Leave = MsgPrivateLeave
+
+# Reused dialogue bits
+
+MsgRankGreeting=%s.
+MsgPrivateLeave=Private.
+MsgCorporalLeave=Corporal.
+
+# Misc
+
+PlayerRankFirst=Private
+PlayerRankSecond=Corporal
+PlayerRankThird=Sergeant
+SoldierName=Soldier
+Kutorian1=Intruders! Alarm!
+PioneerNotInRange=Out of|range, Sir!

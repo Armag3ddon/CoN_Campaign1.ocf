@@ -1,0 +1,2 @@
+Name=Scouting post ruin
+Description=Destroyed by a Kutorian attack.

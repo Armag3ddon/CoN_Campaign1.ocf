@@ -1,0 +1,13 @@
+[DefCore]
+id=InventorCover
+Version=8,0
+Category=C4D_StaticBack
+Width=82
+Height=82
+Offset=-41,-41
+Vertices=1
+VertexX=1
+VertexY=41
+VertexFriction=100
+SolidMask=0,0,82,82,0,0
+HideInCreator=true

@@ -1,0 +1,2 @@
+Name=Pioneer's Bridge
+Description=Ad hoc bridge, constructing by pioneers midbattle.

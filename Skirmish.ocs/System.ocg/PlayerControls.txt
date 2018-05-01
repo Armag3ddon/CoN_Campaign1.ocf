@@ -1,0 +1,54 @@
+[ControlDefs]
+
+	[ControlDef]
+	Identifier=ToggleCommands
+	
+	[ControlDef]
+	Identifier=QuickCommand0
+	
+	[ControlDef]
+	Identifier=QuickCommand1
+	
+	[ControlDef]
+	Identifier=QuickCommand2
+	
+	[ControlDef]
+	Identifier=QuickCommand3
+	
+	[ControlDef]
+	Identifier=QuickCommand4
+
+[ControlSets]
+
+	[ControlSet]
+	Name=*
+		
+		[Assignment]
+		Key=C
+		Priority=999
+		Control=ToggleCommands
+
+		[Assignment]
+		Key=0
+		Priority=999
+		Control=QuickCommand0
+
+		[Assignment]
+		Key=1
+		Priority=999
+		Control=QuickCommand1
+
+		[Assignment]
+		Key=2
+		Priority=999
+		Control=QuickCommand2
+
+		[Assignment]
+		Key=3
+		Priority=999
+		Control=QuickCommand3
+
+		[Assignment]
+		Key=4
+		Priority=999
+		Control=QuickCommand4

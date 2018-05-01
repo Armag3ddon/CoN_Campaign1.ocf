@@ -1,0 +1,2 @@
+Name=Spähposten Ruine
+Description=Zerstört durch einen kutorischen Angriff.

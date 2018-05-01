@@ -1,0 +1,2 @@
+Name=Dark Forest
+Description=A very dark forest where no sunlight ever reaches the ground.

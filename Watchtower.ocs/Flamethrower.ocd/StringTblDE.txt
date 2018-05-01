@@ -1,0 +1,3 @@
+Name=Kaiserlicher Flammenwerfer
+Description=Antike Kriegswaffe. [Benutzen] um das Ziel in tödliche Flammen einzuhüllen.
+MsgReloading=Lädt nach!

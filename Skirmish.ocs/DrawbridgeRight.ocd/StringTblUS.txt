@@ -1,0 +1,2 @@
+Name=Drawbridge
+Description=Used to safeguard entrances.

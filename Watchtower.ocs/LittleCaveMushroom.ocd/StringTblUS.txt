@@ -1,0 +1,2 @@
+Name=Little cave mushroom
+Description=Known for their special healing powers.

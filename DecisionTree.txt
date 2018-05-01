@@ -1,0 +1,28 @@
+To keep track of how attitude can change over scenarios.
+
+P = Paula
+S = Samuel
+
+Starting points:
+P: 50
+S: 50
+
+Watchtower:
+
+Question 1: either of P: -2/0/+2
+Question 2: either P-10 & S+10 or P+10 & S-10
+Mushrooms: S up +5
+
+- at the end -
+
+P: 38, 40, 42 (negative) or 58, 60, 62 (positive)
+S: 40-45 (negative) or 60-65 (positive)
+
+Skirmish:
+
+Question1:
+	if Paula < 50: either P: -10 or +-0
+	if Paula > 50: either S: -10 or +-0
+
+	- after q1 -
+	either S @30 or P @28/30/32 or no change

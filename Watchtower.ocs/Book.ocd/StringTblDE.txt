@@ -1,0 +1,11 @@
+Name=Altes Buch
+Description=Ein mitgenommenes, altes Buch. Trotzdem der äußerlichen Beschädigungen ist der Inhalt noch lesbar [Benutzen].
+DescriptionBurned=Das Buch ist zu verbrannt, um noch etwas entziffern zu können.
+
+Page1=Beim Durchsehen der Seiten erkennst du, dass es sich hier um ein altes Bergbau Handbuch handelt. Am Ende des Buches sind einige handschriftliche Zeilen.
+Page2=<i>Dies sind meine letzten Worte. Das Licht wird langsam schwächer und die Luft schwer. Ich weiß nicht, wie lange der Einsturz jetzt zurückliegt. Zwei Tage?</i>
+Page3=<i>Mein Name ist Gerald Jung. Ich bin Mitglied eines Tunnelbaus. Unsere Aufgabe war, einen Tunnel bis zum Expeditionsbunker zu graben. Ich weiß nicht, was es mit dem Dunkelwald auf sich hat, aber irgendetwas ist dort.</i>
+Page4=<i>Es ist seltsam durch diesen Grund zu graben. Es scheint, als hätte der Boden einen eigenen Willen und will uns fernhalten. Tunnelwände gaben ohne Vorwarnung nach und Steine stürzten an unscheinbaren Stellen herab.</i>
+Page5=<i>Und jetzt hat es mich erwischt. Alle werden denken, dass ich bereits tot bin. Es dauert nicht mehr lange. Wenn du dies liest, dann drehe um, solange du kannst. An Emily: Ich liebe dich.</i>
+
+Next=Weiter

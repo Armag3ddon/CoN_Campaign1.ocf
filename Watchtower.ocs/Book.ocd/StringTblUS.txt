@@ -1,0 +1,11 @@
+Name=Old Book
+Description=A battered old book. Despite the damage, the content is still readable [Use].
+DescriptionBurned=The pages are burned, deciphering the book is impossible now.
+
+Page1=Quickly going over the pages, you understand that this is an old mining manual. At the end of the book, you see a few handwritten lines.
+Page2=<i>These will be the last words I ever write. My light is fading and the air becomes harder to breath. I don't know how long it has been since the cave-in. Two days?</i>
+Page3=<i>My name is Gerald Jung. I am part of a mining operation and our job was to dig a tunnel to reach the Forward Bunker. I don't know what is wrong with the Dark Forest but something is.</i>
+Page4=<i>Digging this ground is weird. As if it had a mind of its own and rejects us. Tunnel walls would suddenly give in, rocks would crash down where people swore they had never seen a rock in the first place.</i>
+Page5=<i>And now it got me. I figure that by now everyone believes me dead. I almost am. If you read this, turn around before it is too late. To Emily I say: I love you.</i>
+
+Next=Next

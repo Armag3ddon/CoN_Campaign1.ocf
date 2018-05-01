@@ -1,0 +1,259 @@
+# Intro
+
+MsgIntro1=Day 41 of my assignment to watchtower 7:\nNothing to report. Scheduled for today is the blasting of the new emergency tunnel.
+MsgIntro2=|Personal note: The crew still calls me Newbie.
+MsgIntroPaula_Single=Hey Newbie!\nGet down here and help me with this, will ya?
+MsgIntroPaula_Multi=Hey Newbies!\nGet down here and help me with this, will ya?
+
+# Elevator
+
+MsgElevator1=What...?
+MsgElevator2=Woah. Careful down there, get out the way!
+MsgElevator3=Anyone hurt? No? Good.
+MsgElevator_Single=The elevator is stuck now. Newbie, can you clear the crates away, will ya?
+MsgElevator_Multi=The elevator is stuck now. Newbies, can you clear the crates away, will ya?
+
+# Attack
+
+MsgAttack1=Thanks, Newbie. Let's get to blasting this escape tunnel, shall we? We're long overdue with this. If only we had more clonks here...
+MsgAttack2=Anyway. We work with what we have, right?|AAATTENTION! EXPLOSION COMING!
+MsgAttack3=Keep it down there, will ya? Everbody knows.
+MsgAttack4=Heh. Never mind Samuel, old grump he is.
+MsgAttack5=Perfect! This looks good. Let's see.
+MsgAttack6=What the hell?
+MsgAttack7=What is going on down here? What was THAT? I carefully measured those the explosive, you know...
+MsgAttack8=Quiet Sam! We've been attacked. Someone planted powder kegs under the tower.
+MsgAttack9=Wait a second. There's a tunnel filled with enemies down here? You guys better come up. I'll secure the elevator.
+MsgAttack10=...and then there was a soldier, firing the at the barrels. Actually, he looked like he was from Kutor.
+MsgAttack11=Kutorian soliders?! BEHIND the wall?
+MsgAttack12=I know. And...wait, where's Eric? ERIC! They killed him...
+MsgAttack13=Also destroyed the gun.
+MsgAttack14=Sam!
+MsgAttack15=What? Eric is dead, we can't do anything about that. But WE still live. And are now without a heavy weapon.
+MsgAttack16=They must have planned this for a long time. Digging below the wall and ambushing us from this side.
+MsgAttack17=They cut us off. We can't get any messages out.
+MsgAttack18=So, this is a siege now?
+MsgAttack19=Exactly, Newbie. And the timing is perfect. We're almost out of supplies, the next delivery was due to tomorrow. I guess we won't get that now. We need to stack up new supplies.
+MsgAttack20=Wait. That sounds like...INCOMING!
+MsgAttack21=Okay, everyone. Let's get to work, will ya?
+
+# Question 1
+
+MsgQuestion1_1=What lies beyond the western gates?
+MsgQuestion1_2=Sam opened the gate, has he? We shouldn't go out there. It is not safe.
+MsgQuestion1_3=Why?
+MsgQuestion1_4=Beyond the gate lies Kutor...but, you know that already. Directly in front of the gate is a forest.
+MsgQuestion1_5=But, you saw that already. We just call it the Dark Forest. It is very dark in there. People got lost and never returned.
+MsgQuestion1_6=There are hostile creatures living within. Do not go beyond the outer gate, will ya?
+MsgQuestion1_7=Sam shouldn't have opened that gate. We could have found another way.
+MsgQuestion1_A=Well...I guess you're right.
+MsgQuestion1_B=Sam thinks practical. We need bread to withstand the siege.
+MsgQuestion1_Remember=Paula will remember this.
+MsgQuestion1_A_1=Glad you agree. However, what's done is done. After all, Sam is our commander.
+MsgQuestion1_B_1=Uh...sure. If you think so. Sam is our commander, we follow his orders.
+MsgQuestion1_Memory=(Paula will remember this)
+MsgQuestion1_8=Anyway. Don't set foot into that damned forest, ok? Back to work now, Newbie.
+
+# Main Quest (also Question 2)
+
+MsgMQ1=Okay, everyone. Gather round.
+MsgMQ2=The tower is kind of secured, for now. We haven't received any help, so it is safe assume that help is not on its way.
+MsgMQ3=It is our job now to break the siege.
+MsgMQ4=Are you serious?
+MsgMQ5=Yes, Paula, very serious.
+MsgMQ6=Right now, the enemy simply outguns us. So we need a new cannon to fight back. Unfortunately, we don't have any metal left.
+MsgMQ7=But there are still some reserves left in the Forward Bunker.
+MsgMQ8=But Sam, that's well into the...
+MsgMQ9=...the Dark Forest. I know. Not that far though and I don't see any other option.
+MsgMQ10=What is the Forward Bunker?
+MsgMQ11_S=A supply storage from the time when King Harx planned an invasion into Kutor. It's hidden on their ground.
+MsgMQ11_P=King Harx once planned an attack on Kutor and placed these supply storages along the border. On their side, actually.
+MsgMQ12=And that is where we need to go. First, I want to scout out the situation, so let's get on the roof.
+MsgMQ13=Hurry up!
+MsgMQ14_Single=Come on. Paula, help me with the scouting post, Newbie you go watch our backs.
+MsgMQ14_Multi=Come on. Paula, help me with the scouting post, Newbies you go watch our backs.
+MsgMQ15=Better make this quick.
+MsgMQ16=Let's see...
+MsgMQ17=Ah, yes. There it is, seemingly untouched. Very good.
+MsgMQ18=What..? We've been discovered. EVERYONE GET DOWN RIGHT NOW!
+MsgMQ19=PAULAAA!
+MsgMQ20=She is alright, for now.
+MsgMQ21_Single=Newbie. Change of plans. Paula can't move like this and I...I need to stay here. I'm the best medic that we have right now.
+MsgMQ21_Multi=Newbies. Change of plans. Paula can't move like this and I...I need to stay here. I'm the best medic that we have right now.
+MsgMQ22=You must now go into the woods and retrieve that metal. It is the only way.
+MsgMQ23=Sam....no...it's too dangerous.
+MsgMQ24=The screechers, they...
+MsgMQ25=Don't worry, Paula. I have a plan. I fixed up one of the old Imperial flamethrowers I found during the inventory. We can use it to burn out the screecher's nests.
+MsgMQ26=But..Sam...they are just animals. We can't simply kill them.
+MsgMQ27=What are screechers?
+MsgMQ28=Bats, living in the Dark Forest. They are quite hostile and will attack you and every light you bring into the woods.
+MsgMQ29=You must deal with the screechers going through the forest.
+MsgMQ_A=Samuel is right. If the screechers are in the way, we must take them out.
+MsgMQ_B=Paula is right. We can't kill all those animals. I won't take the flamethrower.
+MsgMQ30_A=Glad you see the sense in that. I left it by the Chemical Lab, it is fueled and ready to go.
+MsgMQ30_B=Have it your way then. But I expect you to succeed, is that clear?
+MsgMQ30_Memory=(Paula and Samuel will remember this)
+MsgMQ31=Either way, we must hurry. The enemy won't see you in the thick forest, so I doubt you'll be attacked by planes. Just the screechers.
+MsgMQ32=I'll open the outer gate for you.
+
+# Cannon Construction
+
+MsgCan1_S=Great job, Newbie.
+MsgCan1_M=Great job, Newbies.
+MsgCan2=Now we can finally give those guys a sample of their own medicine.
+MsgCan3=Paula is getting better at the minute. But we need to hit them fast, meaning now.
+MsgCan4=I need you to take up gun control. You mark the targets, I fire.
+MsgCan5=While you were gone fetching that metal, I constructed a little bunker buster. Blowing up those fortifications will be a blast!
+MsgCan6=Everything is ready. You point out the targets, I fire until the bunker is gone. Okay?
+MsgCan7=Let's go.
+MsgCan8=Just point me to the targets (Click)!
+MsgCan9=Yeah! It's done!
+MsgCan10=The siege is lifted. We start with strengthening this tower and try to contact other troops.
+MsgCan11=SAM!
+MsgCan12=Paula! You're up again?
+MsgCan13=Yes. But that's not important right now. Look over there, to the north!
+MsgCan14=Oh, shoot! That's a fully-fledged invasion force.
+MsgCan15=SAM...
+MsgCan16=I see it. It's the beacon. The beacon of Evergreen has been lit.
+MsgCan17=We'll move out as soon as possible and abandon the tower. The beacons means all troops are recalled for defence. Evergreen is in danger.
+
+# NPC Paula
+
+MsgPaula1=Ah, Newbie! Great you made it down here. As you can see, everything is set up for the great bang.
+MsgPaula2=All I need is the igniter. Could you bring it to me? I bet Samuel knows where is it.
+MsgPaula2_Short=Could you be bring|me the igniter?
+MsgPaula3=Do you have the igniter yet?
+MsgPaulaWhereIsSam=Where is Samuel?
+MsgPaulaSam=Sam? On the upper floor, doing his sacred inventory.
+MsgPaulaGotIt=I have the igniter.
+MsgPaulaBye=I'll be off.
+MsgPaulaSR1=There you are, Newbie! C'mon, I need your help. I need to reinforce the tower walls to withstand the bombardment.
+MsgPaulaSR1_Short=I need help reinforcing|this wall, Newbie.
+MsgPaulaSR2=I can't operate the mine and work on this, unfortunately.
+MsgPaulaSR3=Could you bring me a lorry filled with...say...40 rocks? Just put it next to me.
+MsgPaulaSR4=There are plenty of rocks down in the cellar. The enemy seems to have no intentions of breaking in, so you should be safe.
+MsgPaulaSR5=However, do stay clear of the tunnel we blew up, ok?
+MsgPaulaSR5_Short=Don't go through|the new tunnel.
+MsgPaulaSR6=Newbie! What's going through your mind?
+MsgPaulaSRHowIsIt=How is it going?
+MsgPaulaSRChatting=Worried, are ya? You know that I love idle chitchat. But right now, I'm afraid, there's is no time. Just get me those rocks, okay?
+MsgPaulaSRIGo=I'll get to work!
+MsgPaulaSRForwardGates=What lies beyond the western gates?
+MsgPaulaSRDone=Here are the rocks you wanted.
+MsgPaulaSRDone2=Great job, Newbie! Let me fix this up real quick, will ya?
+MsgPaulaSRD2_Short=Great job!
+MsgPaulaSRDoneSure=Are you sure?|I don't see the rocks, sorry.
+MsgPaulaSRDone3=There. Good as new.
+MsgPaulaSRDone4=Well, my work is done.
+MsgPaulaSRWhatNext=What now?
+MsgPaulaSRStartSamuel=Now, I think there is something Sam wants you to do.
+MsgPaulaSRDoSamuel=Now, you better do what Sam asked you to do.
+MsgPaulaSRDoneAll=Looks like all tasks are done for now. We should ask Sam what to do next.
+MsgPaulaSRDAll_Short=Go speak|to Sam now.
+MsgPaulaMQ1=Hey Newbie. Don't worry. I looks worse than it is.
+MsgPaulaMQ1_Short=Hey! I'm ok.
+MsgPaulaMQ2_Friendly=Don't let Sam give you a hard time because of this flamethrower. You made the right choice.
+MsgPaulaMQ2_Unfriendly=Be careful with that flamethrower, will ya? It's a brutal device.
+MsgPaulaMQ3=Apart from that: take care in that forest. It's not a nice place to be.
+MsgPaulaMQ3_Short=Be careful in|that forest.
+MsgPaulaMQ4=Everything okay?
+MsgPaulaMQYes=Yes, I'll get to work.
+MsgPaulaMQConcern1=How are you holding up?
+MsgPaulaMQConcern2=Fine, thanks. I suffered worse during the upheaval.
+MsgPaulaMQConcern3=Worse than being blasted?
+MsgPaulaMQConcern4=Doesn't seem likely, does it? Yeah...my village got attacked by raiders. I was shot that night. Nearly didn't make it.
+MsgPaulaMQC_Short=I got shot|before, you know?
+MsgPaulaMQLight=I need light to enter the forest.
+MsgPaulaMQLight_Friendly=Here, take these torches with you. It's not much but surely helps.
+MsgPaulaMQLF_Short=Take these torches,|it'll help.
+MsgPaulaMQLight_Friendly2=Those torches were all I have now. But you can make more in the Tools Workshop.
+MsgPaulaMQLight_Unfriendly=That's a real problem in there, yes. Maybe ask Sam about some help, will ya?
+MsgPaulaMQLU_Short=Sorry, I can't|help with light.
+
+# NPC Samuel
+
+MsgSamuel1=Please, don't bother me right now. I'm in the middle of the inventory.
+MsgSamuel2=What is it now?
+MsgSamuel3=You got what you wanted, now leave.
+MsgSamuelGoGetIt=Ugh. Okay, fine. It's in the metal chest. But don't open any other chests, I'm not done yet.
+MsgSamuelGoGetIt_Short=Fine. The igniter is|in the metal chest.
+MsgSamuelINeedIgniter=Paula told me to bring her the igniter.
+MsgSamuelChests=Hey! Don't you touch those chests. I'm doing an inventory.
+MsgSamuelSR1=Mmmh, yes, yes. Newbie! As you heard, we need new supplies. We won't get the delivery.
+MsgSamuelSR1_Short=I need you to|make new supplies.
+MsgSamuelSR2=Normally we wouldn't do this but we don't have a choice. We need to prepare for a prolonged siege.
+MsgSamuelSR3=There's some bags of seeds over there. Put it to good use, will ya? We need...25 loafs of bread. Just put them in the chests upstairs.
+MsgSamuelSR4=Here. I open the western gate for you. I know this isn't exactly safe but we don't have a choice.
+MsgSamuelSR4_Short=The western gate|is now open.
+MsgSamuelSR5=There's soil out there and we need that. Go plant those seeds. And go look for water underground. Also, you can chop the trunks up. They're still good.
+MsgSamuelSR5_Short=The trunks out|there can be chopped.
+MsgSamuelSR6=I am quite busy, you know?
+MsgSamuelSRWhatAre=What are you doing?
+MsgSamuelSRNoSeeds=I lost all the seeds.
+MsgSamuelSRNoSeeds2=Newbie, be more careful, will ya? Here are more seeds.
+MsgSamuelSRNoS_Short=Here are|more seeds.
+MsgSamuelSRIGo=Okay. I leave.
+MsgSamuelSRBuildSomething=Working on something very important. Something to help us lift the siege. Also, I am doing something and not asking people questions all the time.
+MsgSamuelSRBS_Short=I have work to do.
+MsgSamuelSRDone=I have made all the bread.
+MsgSamuelSRDoneSure=Are you sure?|You might want to check again.
+MsgSamuelSRDone2=Took you quite some time. Well, we can go on then.
+MsgSamuelSRD2_Short=That is enough bread.
+MsgSamuelSRDone3=Yes?
+MsgSamuelSRWhatNext=What now?
+MsgSamuelSRStartPaula=Why you ask me? Ask Paula what you can do for her.
+MsgSamuelSRDoPaula=I suggest you do what Paula asked you to do.
+MsgSamuelSRP_Short=Go speak|to Paula now.
+MsgSamuelSRProceedY=We have all the supplies.
+MsgSamuelSRProceedN=Nothing.
+MsgSamuelSREnd=Excellent. Good job.
+MsgSamuelMQ1=You better get going.
+MsgSamuelMQ2_Friendly=The flamethrower has real punch. Still, I advise you to make a bow and arrows in the armory. For good measure.
+MsgSamuelMQ2_Unfriendly=Since you refused the flamethrower, I suggest you make yourself a bow and a lot of arrows in the armory. I hope that doesn't go against your moral standards.
+MsgSamuelMQ2_Short=You should prepare|a few weapons.
+MsgSamuelMQ3=You could also do us a favour: there is a rare species of mushroom growing in the Dark Forest's ground that would help Paula heal more quickly.
+MsgSamuelMQ4=You'll probably have to search the earth and dig around to find it. Just if you find the time to do that.
+MsgSamuelMQ4_Short=Look underground|for these mushrooms.
+MsgSamuelMQ5=Have you found the bunker yet?
+MsgSamuelMQ6=How's the metal coming?
+MsgSamuelMQNo=Not yet.
+MsgSamuelMQLight=I need light to enter the forest.
+MsgSamuelMQLightLost=I lost the lamp.
+MsgSamuelMQLight_Friendly=Yes, indeed. Take this lamp with you. It's sturdier than torches but don't drop it!
+MsgSamuelMQLF_Short=Take this lamp|with you.
+MsgSamuelMQLight_FriendlyLamp=What happened to that lamp? You can also always build torches.
+MsgSamuelMQLight_FLL=Well...I do have another one. Please don't lose this one, will ya?
+MsgSamuelMQLight_FLL2=Sorry, I don't have any more lamps. You need to build torches now.
+MsgSamuelMQLight_Unfriendly=That's why it's called the Dark Forest. You should build torches.
+MsgSamuelMQPaula=How is Paula?
+MsgSamuelMQPaulaOkay=As I said, okay for now. You worry about that metal.
+MsgSamuelMQPaula_Short=Paula is fine but|we need the metal.
+MsgSamuelMQMushroom=I brought one of those healing mushrooms.
+MsgSamuelMQMushroomExcellent=Excellent, Newbie. That helps.
+MsgSamuelMQME_Short=Thanks for|the mushroom!
+MsgSamuelMQMushroomBurned=Great effort, Newbie, but this one really looks well done. A burned mushroom will do us no good.
+MsgSamuelMQMB_Short=That mushroom|is burned.
+MsgSamuelMQMushroomWhere=Where is it then?
+MsgSamuelMQDoor=I found it but the door is closed.
+MsgSamuelMQDoorBoom=So? Do you lack imagination? We don't have a key, that thing has been abandoned for years. Just blow the door up.
+MsgSamuelMQDB_Short=You can blast|the bunker door.
+RndSamuelSR1=Where did I|leave that?
+RndSamuelSR2=Yes, this works.
+RndSamuelSR3=This looks wrong.
+RndSamuelSR4=Hmmm.
+RndSamuelSR5=Just a few|more corrections.
+RndSamuelSR6=Now, that's perfect.
+RndSamuelSR7=Complete rubbish.
+RndSamuelSR8=Well, that|needs redoing.
+RndSamuelSR9=Stupid thing.
+RndSamuelSR10=A few drops|of oil here.
+
+# Misc
+
+MsgTorchAttach=Torch can only be|attached to a wall or tree.
+DescTorch=Can be produced in the tools workshop. If selected, provides light. [Use] to attach to walls or trees.
+TxtGlory=Glory to the New Republic!
+TxtGlory_Desc=You lack the proper knowledge to press this button yet.
+TxtCannon=Build a cannon
+TxtCannon_Can=Enough metal is stored to build a cannon. <c ee1111>(Be sure you have done everything you wanted to before clicking!)</c>
+TxtCannon_Cannot=You need %d additional metal to build a cannon.

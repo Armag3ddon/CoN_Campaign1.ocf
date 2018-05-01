@@ -1,0 +1,7 @@
+[DefCore]
+id=BrokenTower
+Version=8,0
+Category=C4D_StaticBack
+Width=26
+Height=11
+Offset=-13,-5

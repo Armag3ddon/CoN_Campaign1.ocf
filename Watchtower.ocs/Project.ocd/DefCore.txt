@@ -1,0 +1,7 @@
+[DefCore]
+id=SamuelsProject
+Version=8,0
+Category=C4D_StaticBack
+Width=20
+Height=10
+Offset=-10,-5

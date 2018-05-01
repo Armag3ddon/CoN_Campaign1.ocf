@@ -1,0 +1,2 @@
+Name=Zugbrücke
+Description=Sichert Durchgänge.

@@ -1,0 +1,2 @@
+Name=Fledermaushöhle
+Description=Hier leben Fledermäuse.

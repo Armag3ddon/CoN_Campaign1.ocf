@@ -1,0 +1,28 @@
+# The Goal
+
+Goal_Name0=Der Wachturm
+Goal_Desc0=Ein ganz normaler Tag in Wachturm 7.
+Goal_Name1=Hilf Paula
+Goal_Desc1=Paula dich in den Keller gerufen, sie braucht bei irgendetwas Hilfe.
+Goal_Name2=Der Zünder
+Goal_Desc2=Paula möchte, dass du ihr einen Zünder bringst. Du sollst Samuel danach fragen.
+Goal_Name3=Vorräte
+Goal_Desc3=Für die Belagerung werden Vorräte benötigt. Frage Paula und Samuel woran Bedarf besteht.
+Goal_Name4=Sprich mit Samuel
+Goal_Desc4=Vorerst ist alles erledigt. Frage Samuel, was als nächstes zu tun ist.
+Goal_Name5=Hol das Metall
+Goal_Desc5=Finde einen Weg durch den Dunkelwald zum Expeditionsbunker. Hole das dort eingelagerte Metall und bringe es in die Waffenschmiede.
+
+# Extra goals
+
+Goal_Paula=Bring Paula {{Rock}}: %d/40
+Goal_Paula_Verbose=Paula braucht 40 Steine. Bringe ihr eine Lore voll damit (bisher: %d).
+Goal_Paula_Done=Du hast Paula die Steine gebracht.
+Goal_Samuel={{Bread}} herstellen & lagern: %d/25
+Goal_Samuel_Verbose=Samuel möchte, dass du 25 Laib Brot herstellst und in den Kisten im Obergeschoss einlagerst (bisher: %d).
+Goal_Samuel_Done=Genügend Brote wurden hergestellt.
+Goal_Metal={{Metal}} in der Schmiede: %d/20
+Goal_Metal_Cannon=20 {{Metal}}: Baue jetzt eine Kanone.
+Goal_Metal_Done=Du hast bereits 20 Barren Metall geholt. Du solltest jetzt eine Kanone herstellen.
+Goal_Mushroom=<i>Optional:</i> Suche Heilpilze.
+Goal_Mushroom_Verbose=Samuel hat dich gebeten, nach besonderen Heilpilzen Ausschau zu halten. Durchsuche dazu den Untergrund.

@@ -1,0 +1,10 @@
+MissionRepeatWarning=Achtung! Diese Mission hast du bereits abgeschlossen! Dein Spielfortschritt wird verloren gehen. Willst du dies nicht, wechsle den Spieler oder beende das Szenario.
+
+ImportantMsg=<c ebd024>Dies ist eine wichtige Frage. Wähle deine Antwort weise.</c>
+ImportantRepeat=<c ebd024>Unentschieden! Noch mal wählen.</c>
+QuestionMsg=<c ebd024>Antworte jetzt|%d Sekunden verbleiben.</c>
+
+FlagpoleKingdom=Zerbrochenes Königreich
+
+MultiplayerWaitForPlayers=Du wartest noch auf andere Spieler.
+MultiplayerWaitingForYou=Andere Spieler warten auf dich. Begib dich zur Sammelzone!

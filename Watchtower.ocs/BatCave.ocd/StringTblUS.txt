@@ -1,0 +1,2 @@
+Name=Bat cave
+Description=Housing of bats.

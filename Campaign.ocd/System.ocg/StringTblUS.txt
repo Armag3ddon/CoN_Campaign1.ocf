@@ -1,0 +1,12 @@
+MissionRepeatWarning=Careful! You are replaying an already finished mission! You will lose your campaign progress! If you don't want to lose progress, end the scenario now or switch players.
+MissionSkipWarning=Careful! You are playing a mission without completing the previous one! Your progress will be randomised! If you don't want to lose progress, end the scenario now or switch players.
+MissionDifferentWarning=Careful! You have joined a multiplayer game and you will pick up the progress of someone else. If you don't want to lose progress, end the scenario now or switch players.
+
+ImportantMsg=<c ebd024>This is an important question. Pick your answer carefully.</c>
+ImportantRepeat=<c ebd024>Tied answers! Pick again.</c>
+QuestionMsg=<c ebd024>Pick your answer!|%d seconds remaining.</c>
+
+FlagpoleKingdom=Broken Kingdom
+
+MultiplayerWaitForPlayers=You are waiting for other players to join you.
+MultiplayerWaitingForYou=Other players are waiting for you. Get to the gathering point!

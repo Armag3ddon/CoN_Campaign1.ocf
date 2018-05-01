@@ -1,0 +1,7 @@
+[DefCore]
+id=Campaign_Stairs
+Category=C4D_StaticBack
+Width=37
+Height=40
+Offset=-18,-20
+SolidMask=0,0,0,0,0,0

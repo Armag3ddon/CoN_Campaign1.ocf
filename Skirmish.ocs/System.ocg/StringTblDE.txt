@@ -1,0 +1,36 @@
+# Intro
+
+MsgIntro1=Endlich, das Lager. Ich bin völlig alle!
+MsgIntro2=Halt! Wohin des Weges?
+MsgIntro3=Hier sind meine Befehle. Der General will uns sprechen.
+MsgIntro4=Zum Gruß!
+MsgIntro5=Rühren, Soldat. Bitte einfach das Tor aufmachen.
+MsgIntro6=Jawohl!
+MsgIntro7=Kommt mit.
+MsgIntro8=General! Oberst Gertner, bereit zum Dienst.
+MsgIntro8_Paula=...Oberst?!
+MsgIntro9=Oberst. Wo ist Ihre Mütze?
+MsgIntro10=Entschuldigen Sie, General. Hier.
+MsgIntro11=Sehr gut. Oberst!
+MsgIntro12=Ihre Männer sind sicher erschöpft. Schicken Sie sie zum Essenfassen. Es gibt viel zu besprechen, die Einzelheiten bekommen Sie in einer Minute.
+MsgIntro13=Jawohl.
+MsgIntro14=Äh...Männer! Holt euch etwas zu essen, j...ähm...wegtreten!
+MsgIntro15=Wird gemacht, OBERST!
+MsgIntro16_Single=Komm, Neuling. Der <i>Oberst</i> hat uns einen Befehl erteilt.
+MsgIntro16_Multi=Kommt, Neulinge. Der <i>Oberst</i> hat uns einen Befehl erteilt.
+MsgIntro17=Koch! Wir brauchen etwas zu essen, ja? War eine lange Reise.
+MsgIntro18=Wie bitte? Gibt es heutzutage kein 'Hallo' mehr? Dann setzt euch mal, Ihro Gnaden!
+MsgIntro19=Ha. Der Koch gefällt mir.
+MsgIntro20=Brot, frisch. Zur Zeit das einzige, was ich da habe. Was Heißes gibt es erst zum Abend.
+MsgIntro21=Danke, Schätzchen. Reicht für uns.
+MsgIntro22=Warum warst du so ruppig zu Samuel? Was bedeutet das, das er ein Oberst ist?
+MsgIntro23=Direkt zur Sachen, ja, Neuling? Nun ja, ich hätte wohl lieber die Klappe halten sollen.
+MsgIntro24=Die Sache ist, ich wusste nicht, dass er ein Oberst ist. Hat er nie erwähnt. Es war klar, dass er einen höheren Rang hat, aber gleich ein <i>Oberst</i>? Hui.
+MsgIntro25=Und ein Oberst ist etwas besonderes?
+MsgIntro26=Ein hochrangiger Offizier? In einem Wachturm an der kutorischen Grenze? Klar! Ich habe noch nie gehört, dass ein Oberst an der Grenze stationiert wurde. Vielleicht mal ein Major.
+MsgIntro27=Ein so hoher Rang ist viel zu wertvoll für die Grenze...ich glaub' es nicht. Er hat sein Barett noch nie getragen.
+MsgIntro28=Warum würde er dir denn erzählen, weshalb er dort stationiert ist?
+MsgIntro29_Friendly=Oh, Neuling. Er und ich, wir kennen uns lange. Er gehörte zur Truppe, die mein Dorf vor den Plünderern gerettet haben. Damals hat er mich rekrutiert.
+MsgIntro29_Unfriendly=Hm? Oh. Ist einfach ungewöhnlich, denkst du nicht?
+MsgIntro30=Ah, das war gut.
+MsgIntro31=Wir sollten jetzt wohl nachschauen. Ich vermute, Sam hat seine Befehle erhalten.

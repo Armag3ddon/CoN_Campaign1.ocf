@@ -1,0 +1,240 @@
+/**
+	Imperial Flamethrower
+	A powerful but old weapon.
+*/
+
+local fill_amount;
+
+/*-- Engine Callbacks --*/
+
+func Construction()
+{
+	fill_amount = MaxIntake;
+	SetGraphics(nil, WindBag);
+	SetMeshMaterial("ImperialFlamethrower");
+	SetProperty("PictureTransformation", Trans_Mul(Trans_Scale(1500), Trans_Rotate(150, 0, 0, 1), Trans_Rotate(-170, 1, 0, 0), Trans_Rotate(10, 0, 1, 0)), this);
+}
+
+func Hit()
+{
+	Sound("Hits::GeneralHit?");
+}
+
+/*-- Usage --*/
+
+protected func ControlUse(object clonk, x, y)
+{
+	if (!GetEffect("IntReload", this) && !GetEffect("IntBurstFire", this))
+	{
+		if (!GBackLiquid())
+			BlastFire(clonk, x, y);
+		return true;
+	}
+	clonk->Message("$MsgReloading$");
+	clonk->PauseUse(this, "ReadyToBeUsed", {clonk = clonk});
+	return true;
+}
+
+func ReadyToBeUsed(proplist data)
+{
+	return !GetEffect("IntReload", this);
+}
+
+/*-- Loading --*/
+
+public func DoFullLoad()
+{
+	fill_amount = MaxIntake;
+	return;
+}
+
+func FxIntReloadStart(object target, proplist effect, int temp)
+{
+	if (temp)
+		return FX_OK;
+	effect.Interval = 1;
+	effect.sound = false;
+	return FX_OK;
+}
+
+func FxIntReloadTimer(object target, proplist effect, int time)
+{
+	if (fill_amount > MaxIntake)
+		return FX_Execute_Kill;
+		
+	if (GBackSolid(0,0) || GBackLiquid(0,0))
+	{
+		if (effect.sound)
+		{
+			Sound("Objects::Windbag::Charge", {loop_count = -1});
+			Sound("Objects::Windbag::ChargeStop");
+			effect.sound = false;
+		}
+		return FX_OK;
+	}
+
+	var radius = RandomX(12, 24);
+	var angle = Random(360);
+	var angle_var = RandomX(-25, 25);
+	var x = Sin(angle + angle_var, radius);
+	var y = Cos(angle + angle_var, radius);
+	// Check for a spot of air from which to take the air in.
+	if (!GBackSolid(x, y) && !GBackLiquid(x, y) && !GBackSolid(0, 0) && !GBackLiquid(0, 0)) 
+	{
+		if (!effect.sound)
+		{
+			Sound("Objects::Windbag::Charge", {loop_count = 1});
+			effect.sound = true;
+		}
+		
+		// Particles from the point where the air is sucked in.
+		var air = {
+			Prototype = Particles_Air(), 
+			Size = PV_KeyFrames(0, 0, 0, 250, 3, 1000, 0)
+		};
+		CreateParticle("Air", x, y, -2 * x / 3, -2 * y / 3, 15, air);
+		
+		// Increase the fill amount proportional to the number of frames.
+		fill_amount += effect.Interval; 
+	}
+	return FX_OK;
+}
+
+func FxIntReloadStop(object target, proplist effect, int reason, bool temp)
+{
+	if (temp)
+		return FX_OK;
+	if (effect.sound)
+	{
+		Sound("Objects::Windbag::Charge", {loop_count = -1});
+		Sound("Objects::Windbag::ChargeStop");
+	}
+	return FX_OK;
+}
+
+/*-- Blasting --*/
+
+public func BlastFire(object clonk, int x, int y)
+{
+	if (fill_amount <= 0)
+	{
+		fill_amount = 0;
+		AddEffect("IntReload", this, 100, 1, this);
+		return;
+	}
+	// The blast is handled by an effect.
+	AddEffect("IntBurstFire", this, 100, 1, this, nil, clonk, x, y);
+}
+
+func FxIntBurstFireStart(object target, proplist effect, int temp, object clonk, int x, int y)
+{
+	if (temp)
+		return FX_OK;
+	effect.Interval = 1;
+	effect.clonk = clonk;
+	effect.x = clonk->GetX();
+	effect.y = clonk->GetY();
+	effect.angle = Angle(0, 0, x, y);
+	// Sound effect.
+	Sound("Fire::Blast3alt");
+
+	FireBlastEffect(effect.angle);
+	// Make a timer call for instant effect.
+	FxIntBurstFireTimer(target, effect, 0);
+	// Light!
+	SetLightRange(80, 60);
+	SetLightColor(FIRE_LIGHT_COLOR);
+	return FX_OK;
+}
+
+func FxIntBurstFireTimer(object target, proplist effect, int time)
+{
+	var real_time = time + 1;
+	if (real_time > 8)
+		return FX_Execute_Kill;
+
+	FireBlastEffect(effect.angle);
+	// Determine blast strength
+	var vx = Sin(effect.angle, 20 * fill_amount + 150);
+	var vy = -Cos(effect.angle, 20 * fill_amount + 150);
+
+	// Ignite other objects in a cone around the burst direction.
+	var criteria = Find_And(Find_Not(Find_Category(C4D_Structure)), Find_Not(Find_Func("IsEnvironment")), Find_Not(Find_Func("RejectFlamethrower")),
+	                        Find_Layer(GetObjectLayer()), Find_NoContainer(), Find_Exclude(effect.clonk), Find_PathFree(effect.clonk), Find_OCF(OCF_Inflammable));
+	var dist = 14 + 9 * real_time / 2;
+	var rad = 8 + 8 * real_time / 3;
+	var cone_x = Sin(effect.angle, dist);
+	var cone_y = -Cos(effect.angle, dist);
+	var vx_cone = vx / 6;
+	var vy_cone = vy / 6;
+
+	for (var obj in FindObjects(Find_Distance(rad, cone_x + AbsX(effect.x), cone_y + AbsY(effect.y)), criteria))
+	{
+		obj->Incinerate(100, GetController(), false, this, true);
+		obj->SetController(GetController());
+	}
+	return FX_OK;
+}
+
+func FxIntBurstFireStop(object target, proplist effect, int reason, bool temp)
+{
+	if (temp)
+		return FX_OK;
+	// Reset the fill amount and start reloading.
+	fill_amount = 0;
+	SetLightRange(0);
+	AddEffect("IntReload", target, 100, 1, target);
+	return FX_OK;
+}
+
+func FireBlastEffect(int angle)
+{
+	// Particle effect.
+	for (var dr = 12; dr < 32; dr++)
+	{
+		var r = RandomX(-10, 10);
+		var sx = Sin(angle + r, dr / 2);
+		var sy = -Cos(angle + r, dr / 2);
+		var vx = Sin(angle + r, 2 * fill_amount / 3 + 12);
+		var vy = -Cos(angle + r, 2 * fill_amount / 3 + 12);
+		if (!GBackSolid(sx, sy))
+			CreateParticle("Air", sx, sy, vx, vy, 36, Particles_FireTrail());
+	}
+}
+
+/*-- Display --*/
+
+public func GetCarryMode(object clonk)
+{
+	return CARRY_Blunderbuss;
+}
+
+public func GetCarryTransform(object clonk, bool idle, bool nohand, bool second_on_back)
+{
+	if (idle)
+	{
+		if (!second_on_back)
+			return Trans_Mul(Trans_Rotate(180, 1), Trans_Translate(0,-3000));
+		else
+			return Trans_Mul(Trans_Rotate(180, 1), Trans_Translate(3000,-3000), Trans_Rotate(-30, 0, 1));
+	}
+	if (nohand)
+		return Trans_Mul(Trans_Rotate(180, 1), Trans_Translate(0,3000));
+
+	return Trans_Mul(Trans_Rotate(220, 0, 1, 0), Trans_Rotate(30, 0, 0, 1), Trans_Rotate(-26, 1, 0, 0));
+}
+
+public func GetCarryPhase() { return 600; }
+
+func Definition(def)
+{
+	SetProperty("PictureTransformation", Trans_Mul(Trans_Scale(1500), Trans_Rotate(150, 0, 0, 1), Trans_Rotate(-170, 1, 0, 0), Trans_Rotate(10, 0, 1, 0)), def);
+}
+
+/*-- Properties --*/
+
+local Name = "$Name$";
+local Description = "$Description$";
+local Collectible = true;
+local MaxIntake = 30;
+local Components = {Metal = 10, Flame = 10};

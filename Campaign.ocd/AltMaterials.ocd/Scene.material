@@ -1,0 +1,333 @@
+material KingdomCannon
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			scene_blend alpha_blend
+
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.800000 0.799920 0.799920 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 2.250000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			texture_unit
+			{
+				texture KingdomCannon.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+
+material KingdomFlagBanner
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_check off
+			cull_hardware none
+
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 1.000000 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			texture_unit
+			{
+				texture KingdomFlagBanner.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+
+material ImperialFlamethrower
+{
+	receive_shadows on
+
+	technique
+	{
+		pass windbag_material
+		{
+			ambient 1.0 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0 1.0
+			specular 1.0 1.0 1.0 1.0 3.75
+			emissive 0.0 0.0 0.0 1.0
+
+			alpha_to_coverage off
+			cull_hardware clockwise
+			depth_check on
+			depth_write on
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture ImperialFlamethrower.jpg
+				tex_address_mode wrap
+				scale 1.0 1.0
+				colour_op modulate
+			}
+		}
+	}
+}
+
+material Campaign_LittleCaveMushroom
+{
+	receive_shadows on
+
+	technique
+	{
+		pass
+		{
+			ambient 0.8 0.8 0.8 1.0
+			diffuse 0.64 0.64 0.64 1.0
+			specular 0.0 0.0 0.0 1.0 12.5
+			emissive 0.0 0.0 0.0 1.0
+
+			alpha_to_coverage off
+			cull_hardware clockwise
+			depth_write on
+			scene_blend one zero
+
+			texture_unit
+			{
+				texture LittleCaveMushroom.jpg
+				tex_address_mode wrap
+				scale 1.0 1.0
+				colour_op modulate
+			}
+		}
+	}
+}
+
+material BunkerBusterBoompack
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1.000000
+			diffuse 1 1 1 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			texture_unit
+			{
+				texture BunkerBuster.jpg
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+
+material militaryLab
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			diffuse 1.0 1.0 1.0 1.0
+			texture_unit
+			{
+				texture inventorMain.png
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+
+material militaryLabNoCull
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			cull_hardware none
+			
+			diffuse 1.0 1.0 1.0 1.0
+			texture_unit
+			{
+				texture inventorMain.png
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+
+material militaryLabDetail
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+		
+			diffuse 1.0 1.0 1.0 1.0
+			texture_unit
+			{
+				texture inventorDetail.png
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+
+material militaryLabTeleScope
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			diffuse 1.0 1.0 1.0 1.0
+
+			texture_unit
+			{
+				texture inventorTelescope.png
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+
+material OfficersHat
+{
+	receive_shadows on
+
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1.0
+			diffuse 1 1 1 1.0
+			specular 0.5 0.5 0.5 1.0 12.5
+			emissive 0.0 0.0 0.0 1.0
+
+			cull_hardware clockwise
+			depth_check on
+			depth_write on
+
+			texture_unit Hat
+			{
+				texture S2Hat.png
+				tex_address_mode wrap
+				colour_op_ex modulate src_texture src_player_colour
+				alpha_op_ex source1 src_texture src_player_colour
+			}
+		}
+	}
+}
+
+material Clonk_General
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.810000 0.810000 0.810000 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 3.000000
+			emissive 0.000000 0.000000 0.000000 1.000000
+
+			texture_unit Overlay
+			{
+				texture clonkGeneralOverlay.png
+				tex_address_mode wrap
+				filtering trilinear
+				colour_op_ex modulate src_texture src_player_colour
+				// take alpha from texture only, ignore player alpha
+				alpha_op_ex source1 src_texture src_player_colour
+			}
+			texture_unit Clonk
+			{
+				texture clonkGeneral.jpg
+				tex_address_mode wrap
+				filtering trilinear
+				colour_op_ex blend_current_alpha src_current src_texture
+				// Don't blend alpha, to make sure we have full intensity at the base/overlay border region
+				alpha_op_ex add src_current src_texture
+			}
+			texture_unit Light
+			{
+				// apply lighting -- note this texture unit does not need an
+				// actual texture image: no hardware TIU will be used.
+				colour_op_ex modulate src_current src_diffuse
+				alpha_op_ex modulate src_current src_diffuse
+			}
+		}
+	}
+}
+
+material Clonk_Prisoner
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 1.00000 1.00000 1.00000 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 3.000000
+			emissive 0.000000 0.000000 0.000000 1.000000
+
+			texture_unit Overlay
+			{
+				texture clonkPrisonerOverlay.png
+				tex_address_mode wrap
+				filtering trilinear
+				colour_op_ex modulate src_texture src_player_colour
+				// take alpha from texture only, ignore player alpha
+				alpha_op_ex source1 src_texture src_player_colour
+			}
+			texture_unit Clonk
+			{
+				texture clonkPrisoner.jpg
+				tex_address_mode wrap
+				filtering trilinear
+				colour_op_ex blend_current_alpha src_current src_texture
+				// Don't blend alpha, to make sure we have full intensity at the base/overlay border region
+				alpha_op_ex add src_current src_texture
+			}
+			texture_unit Light
+			{
+				// apply lighting -- note this texture unit does not need an
+				// actual texture image: no hardware TIU will be used.
+				colour_op_ex modulate src_current src_diffuse
+				alpha_op_ex modulate src_current src_diffuse
+			}
+		}
+	}
+}
+
+material oldShovel
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 1.000000 1.000000 1.000000 1.000000
+			specular 0.000000 0.000000 0.000000 1.000000 0.250000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			texture_unit
+			{
+				texture oldShovel.jpg
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}

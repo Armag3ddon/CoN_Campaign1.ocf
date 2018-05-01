@@ -1,0 +1,16 @@
+# Players
+
+TeamAttackers=Kutor
+TeamDefenders=Zerbrochenes Königreich
+
+PlayerRep=Armee der Republik
+PlayerKut=Kutorianische Armee
+
+# NPC names
+
+RepublicanGeneral=General Terry
+PersonalGuard=Feldwebel Miller
+MajorGeneral=Generalmajor Guinot
+EntranceGuard=Mayer
+Cook=Koch
+Medic=Sanitäter

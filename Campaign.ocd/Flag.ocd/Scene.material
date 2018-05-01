@@ -1,0 +1,50 @@
+material DomainFlag
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			cull_hardware none
+			
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 12.5
+			emissive 0 0 0 1
+
+			texture_unit
+			{
+				texture flag.png
+				tex_address_mode wrap
+				filtering trilinear
+				colour_op_ex modulate src_texture src_player_colour
+			}
+		}
+	}
+}
+
+material JustABeam
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			cull_hardware none
+			
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1 12.5
+			emissive 0 0 0 1
+
+			texture_unit
+			{
+				texture beam.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}

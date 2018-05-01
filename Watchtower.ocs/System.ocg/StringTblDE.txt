@@ -1,0 +1,257 @@
+# Intro
+
+MsgIntro1=Tag 41 meiner Stationierung in Wachturm 7:\nKeine besonderen Vorkommnisse. Für heute ist die Sprengung des neuen Nottunnels geplant.
+MsgIntro2=|Im Übrigen: Alle hier nennen mich immer noch Neuling.
+MsgIntroPaula_Single=Ho Neuling!\nKomm hier runter und hilf mir mal, ja?
+MsgIntroPaula_Multi=Ho Neulinge!\nKommt hier runter und helft mir mal, ja?
+
+# Elevator
+
+MsgElevator1=Was zum?
+MsgElevator2=Hui, Vorsicht da unten. Aus dem Weg!
+MsgElevator3=Verletzte? Nein? Gut.
+MsgElevator_Single=Der Fahrstuhl klemmt jetzt. Neuling, kannst du die Kisten mal wegräumen, ja?
+MsgElevator_Multi=Der Fahrstuhl klemmt jetzt. Neulinge, könnt ihr die Kisten mal wegräumen, ja?
+
+# Attack
+
+MsgAttack1=Danke, Neuling. Dann lass uns mal mit der Sprengung loslegen, ja? Das hier ist schon längst überfällig. Wenn wir bloß mehr Leute hätten...
+MsgAttack2=Was soll's. Wir machen das Beste draus.|AAACHTUNG! SPREEENGUNG!
+MsgAttack3=Macht mal keinen Wind da unten, jeder weiß Bescheid.
+MsgAttack4=Hah. Beachte Samuel gar nicht, alter Miesepeter.
+MsgAttack5=Perfekt! Lass mich mal nachsehen.
+MsgAttack6=Was zur Hölle?
+MsgAttack7=Was ist hier unten los? Was war DAS? Wisst ihr, der Sprengstoff war genauestens abgewogen...
+MsgAttack8=Still, Sam! Wir wurden angegriffen. Da lagen Sprengfässer unter dem Turm.
+MsgAttack9=Moment. Hier unten ist ein Tunnel voller Feinde? Ihr kommt besser schnell hoch, ich sichere den Fahrstuhl ab.
+MsgAttack10=...und dann war da ein Soldat, der auf die Fässer geschossen hat. Er trug eine Uniform Kutors.
+MsgAttack11=Kutorische Soldaten?! HINTER dem Wall?
+MsgAttack12=Ich weiß. Und...halt, wo ist Eric? ERIC! Sie haben ihn getötet...
+MsgAttack13=Und die Kanone erwischt.
+MsgAttack14=Sam!
+MsgAttack15=Was? Eric ist tot, das lässt sich nicht mehr ändern. Aber WIR leben noch. Und jetzt ohne schwere Waffen.
+MsgAttack16=Dahinter muss ein Plan stecken. Unter dem Wall durchgraben um uns von hinten anzugreifen, das braucht Zeit.
+MsgAttack17=Wir sind jetzt von unseren Truppen abgeschnitten.
+MsgAttack18=Das ist hier jetzt eine Belagerung?
+MsgAttack19=Korrekt, Neuling. Der Zeitpunkt ist gut gewählt, morgen wäre die nächste Versorgungslieferung angekommen. Aber so werden wir keinen Nachschub bekommen. Wir brauchen jetzt Vorräte.
+MsgAttack20=Still. Das klingt wie...DECKUNG!
+MsgAttack21=Gut, gut...Lasst uns anfangen, ja?
+
+# Question 1
+
+MsgQuestion1_1=Was liegt hinter den westlichen Türen?
+MsgQuestion1_2=Sam hat also das Tor geöffnet, ja? Wir sollten nicht dort rausgehen.
+MsgQuestion1_3=Warum?
+MsgQuestion1_4=Hinter dem Tor ist Kutor...aber das weißt du ja. Direkt hinter den Toren liegt ein Wald.
+MsgQuestion1_5=Aber das hast du schon gesehen. Wir nennen ihn den Dunkelwald. Wir haben einige Leute in seiner Dunkelheit verloren.
+MsgQuestion1_6=Sehr gefährliche Tiere leben in der Dunkelheit des Waldes. Geh nicht aus dem Außentor, ja?
+MsgQuestion1_7=Sam hätte das Tor nicht öffnen sollen. Es gibt sicher einen anderen Weg.
+MsgQuestion1_A=Ja...da hast du wohl recht.
+MsgQuestion1_B=Sam ist praktisch veranlagt. Wir brauchen einfach Brot.
+MsgQuestion1_Remember=Paula wird sich hieran erinnern.
+MsgQuestion1_A_1=Schön, dass du zustimmst. Nun denn, Sam ist hier der Kommandant, es hilft also nichts.
+MsgQuestion1_B_1=Äh...sicher. Wie du meinst. Sam ist der Kommandant, wir folgen ihm.
+MsgQuestion1_Memory=(Paula wird sich hieran erinnern)
+MsgQuestion1_8=Wie dem auch sei. Setze einfach keinen Fuß in diesen verdammten Wald, ja?
+
+# Main Quest (also Question 2)
+
+MsgMQ1=Leute, kommt mal zusammen.
+MsgMQ2=Der Turm ist jetzt etwas sicherer. Hilfe ist keine gekommen, also müssen wir davon ausgehen, dass auch keine kommen wird.
+MsgMQ3=Wir müssen die Belagerung selber auflösen.
+MsgMQ4=Meinst du das ernst?
+MsgMQ5=Ja, Paula, sehr ernst.
+MsgMQ6=Derzeit ist der Feind uns überlegen. Wir brauchen einen neue Kanone. Dummerweise haben wir kein Metall mehr übrig.
+MsgMQ7=Im Expeditionsbunker sollten aber noch Reserven sein.
+MsgMQ8=Sam, der Bunker ist tief im...
+MsgMQ9=...Dunkelwald, ich weiß. Allerdings nicht allzu tief und ich sehe keine andere Möglichkeit.
+MsgMQ10=Was ist der Expeditionsbunker?
+MsgMQ11_S=Ein Vorratslager aus der Zeit, als Hörx eine Invasion nach Kutor plante. Versteckt auf kutorischem Gebiet.
+MsgMQ11_P=König Hörx plante einmal einen Angriff auf Kutor. Diese Bunker wurden als Vorratslager in kutorischem Gebiet errichtet.
+MsgMQ12=Und genau da müssen wir ran. Ich will erst mal einen Überblick haben. Folgt mir aufs Dach.
+MsgMQ13=Beeilung!
+MsgMQ14_Single=Hier lang. Paula, hilf mir mal mit dem Ausguck. Neuling, du hältst uns den Rücken frei.
+MsgMQ14_Multi=Hier lang. Paula, hilf mir mal mit dem Ausguck. Neulinge, ihr haltet uns den Rücken frei.
+MsgMQ15=Ich mach lieber schnell.
+MsgMQ16=Mal sehen...
+MsgMQ17=Ah ja. Dort. Sieht so aus, als wäre da niemand dran gewesen.
+MsgMQ18=Was...? Wir wurden entdeckt. ALLE RUNTER!
+MsgMQ19=PAULAAA!
+MsgMQ20=Sie ist stabil, bis auf Weiteres.
+MsgMQ21_Single=Planänderung, Neuling. Paula ist außer Gefecht...du musst in den Dunkelwald gehen und das Metal hier her holen.
+MsgMQ21_Multi=Planänderung, Neulinge. Paula ist außer Gefecht...ihr müsst in den Dunkelwald gehen und das Metal hier her holen.
+MsgMQ22=Ich bin der beste Sanitäter hier, ich kümmere mich um Paula. Geht nicht anders.
+MsgMQ23=Sam..nein..das ist zu gefährlich.
+MsgMQ24=Die Kreischer...
+MsgMQ25=Keine Sorge, Paula. Ich habe einen Plan. Ich habe einen alten kaiserlichen Flammenwerfer gefunden und wieder flott gemacht. Damit brennen wir die Kreischernester aus.
+MsgMQ26=Aber..Sam..das sind nur Tiere. Wir können die nicht einfach umbringen.
+MsgMQ27=Was sind Kreischer?
+MsgMQ28=Fledermäuse im Dunkelwald. Sehr angriffslustig. Sie greifen dich und jedes Licht an, welches du in Wald trägst.
+MsgMQ29=Du musst an den Kreischern vorbei, wenn du in den Wald gehst.
+MsgMQ_A=Samuel hat Recht. Die Kreischer sind im Weg und müssen jetzt weichen.
+MsgMQ_B=Paula hat Recht. Das sind nur Tiere. Ich nehme den Flammenwerfer nicht mit.
+MsgMQ30_A=Ich sehe, du bist vernünftig. Der Flammenwerfer liegt beim Chemielabor, voll aufgetankt.
+MsgMQ30_B=Wie du willst. Aber ich erwarte Ergebnisse, verstanden?
+MsgMQ30_Memory=(Paula und Samuel werden sich hieran erinnern)
+MsgMQ31=Wie auch immer. Wir haben nicht viel Zeit. Im dichten Wald sind keine Angriffe durch Flugzeuge zu erwarten. Nur durch die Kreischer.
+MsgMQ32=Ich öffne das äußere Tor.
+
+# Cannon Construction
+
+MsgCan1_S=Gute Arbeit, Neuling.
+MsgCan1_M=Gute Arbeit, Neulinge.
+MsgCan2=Jetzt können wir es den Typen wirklich heimzahlen.
+MsgCan3=Paula geht es bereits besser. Aber wir müssen jetzt zuschlagen. Schnell.
+MsgCan4=Ich brauche jemanden, der mir die Ziele für die Kanone markiert.
+MsgCan5=Ich habe die Zeit genutzt und bunkerbrechende Munition entwickelt. Die Befestigung aufsprengen wird damit ein Klacks!
+MsgCan6=Alles bereits. Einfach auf die Ziele zeigen und ich feuere bis der Bunker weg ist.
+MsgCan7=Auf geht's.
+MsgCan8=Zeig mir einfach das Ziel (Klick)!
+MsgCan9=Geschafft! Die sind erledigt.
+MsgCan10=Die Belagerung wäre vorbei. Jetzt können wir den Turm verstärken und neue Befehle abfragen.
+MsgCan11=SAM!
+MsgCan12=Paula! Schon wieder auf den Beinen?
+MsgCan13=Ja. Aber das ist nicht so wichtig. Schau mal dort, Richtung Norden!
+MsgCan14=Oh, Mist! Das ist eine vollwertige Invasion.
+MsgCan15=SAM...
+MsgCan16=Ich sehe es. Das Leuchtfeuer. Das Leuchtfeuer von Immergrün brennt.
+MsgCan17=Wir machen uns sofort auf den Weg. Der Turm ist verloren. Das Leuchtfeuer ruft alle Truppen zurück. Immergrün ist in Gefahr.
+
+# NPC Paula
+
+MsgPaula1=Ah, Neuling! Schön, dass du nach unten gefunden hast. Wie du siehst, ist hier alles soweit fertig.
+MsgPaula2=Ich brauche nur noch den Zünder. Könntest du den holen? Samuel weiß bestimmt, wo der ist.
+MsgPaula2_Short=Kannst du mir einen|Zünder bringen?
+MsgPaula3=Hast du den Zünder schon?
+MsgPaulaWhereIsSam=Wo ist Samuel?
+MsgPaulaSam=Sam? Im obersten Stockwerk, er arbeitet an seiner geheiligten Inventur.
+MsgPaulaGotIt=Hier ist der Zünder.
+MsgPaulaBye=Bin schon los.
+MsgPaulaSR1=Da bist du ja! Schau mal, ich brauche deine Hilfe. Die Mauer hier muss verstärkt werden, gegen diese Angriffe.
+MsgPaulaSR1_Short=Neuling, ich brauche Hilfe|beim Verstärken hier.
+MsgPaulaSR2=Ich kann nicht in der Mine und hier gleichzeitig arbeiten.
+MsgPaulaSR3=Könntest du mir eine Lore mit...hm...40 Steinen drin bringen? Stell sie einfach hier ab.
+MsgPaulaSR4=Im Keller sind jetzt reichlich Steine. Der Feind scheint derzeit keine Anstalten zu machen, in den Turm zu kommen. Sollte also sicher sein.
+MsgPaulaSR5=Aber geh nicht zu weit in den gesprengten Tunnel, ja?
+MsgPaulaSR5_Short=Geh aber nicht durch|den neuen Tunnel!
+MsgPaulaSR6=Neuling! Was beschäftigt dich?
+MsgPaulaSRHowIsIt=Wie läuft's?
+MsgPaulaSRChatting=Bist wohl nervös, ja? Du weißt, ich bin immer für Plaudereien da...nur jetzt gerade ist keine Zeit. Hol einfach die Steine, okay?
+MsgPaulaSRIGo=Ich mach' mich ans Werk!
+MsgPaulaSRForwardGates=Was liegt hinter den westlichen Türen?
+MsgPaulaSRDone=Hier sind die Steine, die du haben wolltest.
+MsgPaulaSRDone2=Gute Arbeit, Neuling. Lass mich das hier eben fertig machen, ja?
+MsgPaulaSRD2_Short=Gute Arbeit!
+MsgPaulaSRDoneSure=Bist du sicher? Ich sehe keine Steine.
+MsgPaulaSRDone3=Da. Wie neu.
+MsgPaulaSRDone4=Gut, meine Arbeit ist erledigt.
+MsgPaulaSRWhatNext=Was jetzt?
+MsgPaulaSRStartSamuel=Ich denke, dass Sam noch etwas von dir wollte.
+MsgPaulaSRDoSamuel=Jetzt machst du besser das, was Sam aufgetragen hat.
+MsgPaulaSRDoneAll=Sieht so aus, als wäre alles erledigt. Wir sollten Sam fragen, was als nächstes geschieht.
+MsgPaulaSRDAll_Short=Du solltest|mit Sam reden.
+MsgPaulaMQ1=Hey Neuling. Guck nicht so. Das hier sieht schlimmer aus, als es ist.
+MsgPaulaMQ1_Short=Hi! Mir geht's gut.
+MsgPaulaMQ2_Friendly=Lass dir von Sam nicht die Laune verderben wegen dem Flammenwerfer. Du hast richtig entschieden.
+MsgPaulaMQ2_Unfriendly=Sei vorsichtig mit dem Flammenwerfer. Das ist eine brutale Maschine.
+MsgPaulaMQ3=Ansonsten: pass auf dich auf in diesem Wald. Das ist kein Erholungsort.
+MsgPaulaMQ3_Short=Sei vorsichtig|im Wald.
+MsgPaulaMQ4=Alles gut?
+MsgPaulaMQYes=Ja, ich leg' gleich los.
+MsgPaulaMQConcern1=Wie geht es dir?
+MsgPaulaMQConcern2=Gut, danke. Während des Umbruchs habe ich schlimmeres erlebt.
+MsgPaulaMQConcern3=Schlimmeres als gesprengt zu werden?
+MsgPaulaMQConcern4=Schon komisch, was? Ja...mein Dorf wurde von Plünderen angegriffen. Ich wurde angeschossen und habe das fast nicht überlebt.
+MsgPaulaMQC_Short=Ach, ich wurde schon|mal angeschossen.
+MsgPaulaMQLight=Ich brauche Licht für den Wald.
+MsgPaulaMQLight_Friendly=Hier sind ein paar Fackeln. Nicht viel, aber hilft bestimmt.
+MsgPaulaMQLF_Short=Nimm dir diese|Fackeln mit.
+MsgPaulaMQLight_Friendly2=Diese Fackeln waren alles, was ich gerade habe. Du kannst in der Werkzeughütte mehr machen.
+MsgPaulaMQLight_Unfriendly=Das stimmt, das ist ein Problem. Vielleicht weiß Sam da weiter?
+MsgPaulaMQLU_Short=Entschuldige, ich habe|auch kein Licht.
+
+# NPC Samuel
+
+MsgSamuel1=Bitte, störe mich nicht. Ich bin gerade bei der Inventur.
+MsgSamuel2=Was gibt es denn?
+MsgSamuel3=Du hast was du wolltest. Geh jetzt.
+MsgSamuelGoGetIt=Uhm. Okay, gut. Der ist in der Metalltruhe. Aber mach keine der anderen Truhen auf, ich bin noch nicht fertig.
+MsgSamuelGoGetIt_Short=Na gut. Der Zünder ist|in der Metallkiste.
+MsgSamuelINeedIgniter=Paula hat mir gesagt, dass ich einen Zünder holen soll.
+MsgSamuelChests=Hey! Nicht anfassen. Ich bin gerade bei der Inventur.
+MsgSamuelSR1=Mmmh, ja, perfekt. Neuling! Wie du gehört hast, brauchen wir Vorräte. Die Lieferung wird nicht eintreffen.
+MsgSamuelSR1_Short=Du musst jetzt|neue Vorräte anlegen.
+MsgSamuelSR2=Normalerweise würden wir das so nicht machen, aber was bleibt uns. Wir müssen für die Belagerung gewappnet sein.
+MsgSamuelSR3=Da drüben sind einige Beutel mit Samen. Die kannst du mal einpflanzen. Wir brauchen...25 Laib Brot. Tu sie einfach in die Kisten oben.
+MsgSamuelSR4=Hier, ich öffne dir das westliche Tor. Das ist nicht so wirklich sicher, aber wir haben keine Wahl.
+MsgSamuelSR4_Short=Das westliche Tor|ist jetzt offen.
+MsgSamuelSR5=Da draußen gibt es fruchtbaren Boden, in den du die Samen pflanzen kannst. Wasser sollte im Untergrund zu finden sein. Und die Holzstapel draußen, die kannst du kleinhacken.
+MsgSamuelSR5_Short=Die Stämme draußen kannst|du zu Holz machen.
+MsgSamuelSR6=Ich bin beschäftigt, siehst du das nicht?
+MsgSamuelSRWhatAre=Was machst du hier?
+MsgSamuelSRNoSeeds=Ich habe keine Samen mehr.
+MsgSamuelSRIGo=Okay, ich bin weg.
+MsgSamuelSRBuildSomething=Ich arbeite an etwas sehr wichtigem. Etwas, um die Belagerung zu beenden. Vor allem arbeite ich und stelle nicht die ganze Zeit Fragen.
+MsgSamuelSRBS_Short=Ich habe zu tun.
+MsgSamuelSRDone=Ich habe alles Brot gemacht.
+MsgSamuelSRDoneSure=Bist du sicher?|Schau vielleicht noch mal nach.
+MsgSamuelSRDone2=Hat ja seine Zeit gedauert. Na gut, dann können wir weitermachen.
+MsgSamuelSRD2_Short=Das reicht an Brot.
+MsgSamuelSRDone3=Ja?
+MsgSamuelSRWhatNext=Was jetzt?
+MsgSamuelSRStartPaula=Warum fragst du mich? Frage Paula, was du für sie tun kannst.
+MsgSamuelSRDoPaula=Ich schlage vor, du machst das, was Paula von dir wollte.
+MsgSamuelSRP_Short=Du solltest|mit Paula reden.
+MsgSamuelSRProceedY=Alle Vorräte sind eingelagert.
+MsgSamuelSRProceedN=Nichts.
+MsgSamuelSREnd=Exzellent. Gute Arbeit.
+MsgSamuelMQ1=Du machst dich besser an die Arbeit.
+MsgSamuelMQ2_Friendly=Der Flammenwerfer hat es in sich. Trotzdem solltest du vielleicht noch Pfeil und Bogen herstellen. Zur Sicherheit.
+MsgSamuelMQ2_Unfriendly=Da du den Flammenwerfer ja nun nicht haben wolltest, schlage ich vor, dass du Pfeil und Bogen in der Waffenschmiede herstellt. Ich hoffe, das verletzt deine Moralvorstellung nicht.
+MsgSamuelMQ2_Short=Du solltest noch|Waffen herstellen.
+MsgSamuelMQ3=Du könntest uns auch einen Gefallen tun: im Waldboden gibt es eine seltene Art von Pilz, die Paula sehr helfen könnte.
+MsgSamuelMQ4=Du musst wohl den Untergrund etwas dafür durchsuchen. Und nur, wenn Zeit dafür bleibt.
+MsgSamuelMQ4_Short=Suche im Untergrund|nach den Pilzen.
+MsgSamuelMQ5=Hast du den Bunker schon gefunden?
+MsgSamuelMQ6=Wie sieht es mit dem Metall aus?
+MsgSamuelMQNo=Noch nicht.
+MsgSamuelMQLight=Ich brauche Licht für den Wald.
+MsgSamuelMQLightLost=Die Lampe ist weg.
+MsgSamuelMQLight_Friendly=Ja, stimmt. Nimm diese Lampe mit, die ist besser als Fackeln. Aber lass sie nicht fallen!
+MsgSamuelMQLF_Short=Nimm diese|Lampe mit.
+MsgSamuelMQLight_FriendlyLamp=Was ist mit der Lampe geschehen? Du kannst sonst auch Fackeln bauen.
+MsgSamuelMQLight_FLL=Nun...ich habe hier noch eine. Verliere die aber bitte nicht, ja?
+MsgSamuelMQLight_FLL2=Tut mir leid, Lampen sind alle. Du musst jetzt Fackeln bauen.
+MsgSamuelMQLight_Unfriendly=Deshalb heißt es auch Dunkelwald. Du solltest dir Fackeln herstellen.
+MsgSamuelMQPaula=Wie geht es Paula?
+MsgSamuelMQPaulaOkay=Wie ich sagte, im Moment in Ordnung. Du sorgst dich um das Metall.
+MsgSamuelMQPaula_Short=Paula geht's gut,|wir brauchen jetzt Metall.
+MsgSamuelMQMushroom=Ich habe hier einen Heilpilz.
+MsgSamuelMQMushroomExcellent=Exzellent, Neuling. Das hilft.
+MsgSamuelMQME_Short=Danke für|den Pilz!
+MsgSamuelMQMushroomBurned=Guter Einsatz, Neuling. Der sieht aber schon gut durchgebraten aus. Ein verbrannter Pilz ist nicht so gut.
+MsgSamuelMQMB_Short=Dieser Pilz|ist verbrannt.
+MsgSamuelMQMushroomWhere=Wo denn?
+MsgSamuelMQDoor=Ich habe den Bunker gefunden, aber das Tor ist zu.
+MsgSamuelMQDoorBoom=Und? Fehlt dir Fantasie? Wir haben keinen Schlüssel dafür, das Teil wurde vor Jahren aufgegeben. Spreng das Tor einfach.
+MsgSamuelMQDB_Short=Die Bunkertür kannst|du aufsprengen.
+RndSamuelSR1=Wo war das noch?
+RndSamuelSR2=Ja, so funktioniert's.
+RndSamuelSR3=Das sieht so|nicht richtig aus.
+RndSamuelSR4=Hmmm.
+RndSamuelSR5=Nur noch ein|paar Verbesserungen.
+RndSamuelSR6=Ja, perfekt.
+RndSamuelSR7=Völliger Schrott.
+RndSamuelSR8=Hm, das muss|neu gemacht werden.
+RndSamuelSR9=Dummes Teil.
+RndSamuelSR10=Hier und da ein|paar Tropfen Öl...
+
+# Misc
+
+MsgTorchAttach=Fackeln können nur an|Wände oder Bäume angebracht werden.
+DescTorch=Kann in der Werkstatt hergestellt werden. Spendet Licht, wenn ausgewählt. [Benutzen] um sie an Wände oder Bäume anzubringen.
+TxtGlory=Ruhm der Neuen Republik!
+TxtGlory_Desc=Dir fehlt noch Wissen, um diesen Knopf drücken zu dürfen.
+TxtCannon=Kanone bauen
+TxtCannon_Can=Es gibt genug Metall für eine Kanone vorhanden. <c ee1111>(Stelle sicher, dass du alles gemacht hast, was du machen wolltest, bevor du drückst!)</c>
+TxtCannon_Cannot=Du brauchst noch %d Metall für eine Kanone.

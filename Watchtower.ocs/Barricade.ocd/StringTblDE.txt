@@ -1,0 +1,2 @@
+Name=Barrikade
+Description=Vom Feind errichtet.

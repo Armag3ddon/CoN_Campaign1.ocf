@@ -1,0 +1,12 @@
+[DefCore]
+id=Flag
+Version=7,0
+Category=C4D_StaticBack
+Width=30
+Height=40
+Offset=-15,-20
+Vertices=3
+VertexX=0,0,0
+VertexY=0,15,-15
+VertexFriction=100,100,100
+Rotate=1

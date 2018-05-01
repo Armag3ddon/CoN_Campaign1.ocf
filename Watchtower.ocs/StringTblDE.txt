@@ -1,0 +1,9 @@
+TeamAttackers=Angreifer
+TeamDefenders=Zerbrochenes Königreich
+
+PlayerNPC=Wachmannschaft
+
+FoundSome=Einige Pilze gefunden.
+FoundAll=Alle Pilze gefunden.
+
+Guidepost=<< Königreich Hörx

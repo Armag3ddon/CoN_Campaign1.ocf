@@ -1,0 +1,7 @@
+Name=Holzschild
+MsgRead=Lesen
+
+Msg1=Hauptquartier|Nur wichtige Dienstsachen.
+Msg2=Pulverlager (im Untergrund)|Feuer strengstens verboten.
+Msg3=Zeughaus|Ausgabe nur mit Genehmigung.
+Msg4=Waffenlager|Tür dauerhaft zerstört.|-Samuel

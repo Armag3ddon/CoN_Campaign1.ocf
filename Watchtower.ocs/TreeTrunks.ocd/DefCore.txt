@@ -1,0 +1,10 @@
+[DefCore]
+id=Campaign_TreeTrunks
+Category=C4D_None
+Width=24
+Height=10
+Offset=-12,-5
+Vertices=5
+VertexX=0,-10,10,5,-5
+VertexY=4,4,4,-3,-3
+VertexFriction=100,100,100,25,25

@@ -1,0 +1,2 @@
+Name=Dunkler Wald
+Description=Ein sehr dichter Wald, in dem kein Sonnenlicht den Boden erreicht.

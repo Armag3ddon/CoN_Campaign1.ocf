@@ -1,0 +1,7 @@
+Name=Wooden sign
+MsgRead=Read
+
+Msg1=Headquarters|Official business only.
+Msg2=Powder storage (underground)|Fire strictly forbidden.
+Msg3=Arsenal|Permit-only.
+Msg4=Weapon storage|Door permanently broken.|-Samuel

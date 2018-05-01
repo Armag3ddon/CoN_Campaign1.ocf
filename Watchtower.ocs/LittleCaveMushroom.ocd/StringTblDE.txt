@@ -1,0 +1,2 @@
+Name=Kleiner Höhlenpilz
+Description=Bekannt für ihre besondere Heilkraft.

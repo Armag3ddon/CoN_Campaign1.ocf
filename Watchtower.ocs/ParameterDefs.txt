@@ -1,0 +1,11 @@
+[ParameterDef]
+ID=Mushrooms
+Achievement=Shroom
+	[Options]
+		[Option]
+		Description=$FoundSome$
+		Value=1
+
+		[Option]
+		Description=$FoundAll$
+		Value=2

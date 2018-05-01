@@ -1,0 +1,2 @@
+Name=Kiste
+Description=Liegt ständig im Weg rum.

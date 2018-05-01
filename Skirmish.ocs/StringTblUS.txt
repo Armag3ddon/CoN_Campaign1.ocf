@@ -1,0 +1,51 @@
+# Players
+
+TeamAttackers=Kutor
+TeamDefenders=Broken Kingdom
+
+PlayerRep=Republican Army
+PlayerKut=Kutorian Army
+
+# NPC names
+
+RepublicanGeneral=General Terry
+PersonalGuard=Sergeant Miller
+MajorGeneral=Major general Guinot
+EntranceGuard=Mayer
+Cook=Cook
+Medic=Medic
+Wounded1=Marten
+Wounded2=Jack
+Wounded3=Bernadette
+Wounded4=Isolde
+Gunny=Gunny Hartman
+Gunner1=Felix
+Gunner2=Tobias
+Gunner3=Nils
+Scout=Sergeant Gunther
+Guard=Farina
+Prisoner=Prisoner
+ArmoryGuard=Corporal Smith
+Soldier1=Marie
+Soldier2=Mark
+Soldier3=Derek
+Soldier4=Flix
+Lieutenant=Lieutenant Bort
+PioneerName=Pioneer
+SoldierName=Soldier
+
+Kutor1=Torben
+
+# Misc
+
+Colonel=Colonel.
+PioneerNoBridge=We need to create|a new bridge first.
+PioneerBack=Pioneers, fall back!
+PioneerForward=Pioneers, advance!
+PioneerHalt=Pioneers, halt!
+PioneerDynamite=Pioneers, blast!
+PioneerDynamiteNotReady=Not ready yet!
+PaulaBridgeDestroyed=Pioneers, fall back and make a new bridge!
+PaulaBridgePlaced=Good job, pioneers. Fall back and make a new bridge!
+PaulaKillGrenadier=They have a GRENADE LAUNCHER! Take it out, quickly!
+PaulaBridgeHole=GET BACK! The bridge will collapse!

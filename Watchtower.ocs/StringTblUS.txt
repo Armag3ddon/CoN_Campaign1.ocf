@@ -1,0 +1,9 @@
+TeamAttackers=Attackers
+TeamDefenders=Broken Kingdom
+
+PlayerNPC=Watchtower Crew
+
+FoundSome=Some mushrooms found.
+FoundAll=All mushrooms found.
+
+Guidepost=<< Kingdom of Harx

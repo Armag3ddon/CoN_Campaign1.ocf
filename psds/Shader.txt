@@ -1,0 +1,1 @@
+AddFragmentShader("Common", "slice(finish+20) { fragColor = vec4(vec3(0.299*fragColor.r + 0.587*fragColor.g + 0.114*fragColor.b), fragColor.a); }")

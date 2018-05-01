@@ -1,0 +1,28 @@
+# The Goal
+
+Goal_Name0=The Watchtower
+Goal_Desc0=A regular day in watchtower 7.
+Goal_Name1=Paula's call
+Goal_Desc1=Paula wants you to help her in the basement.
+Goal_Name2=The Igniter
+Goal_Desc2=Paula needs you to bring her an igniter. She suggested to ask Samuel about it.
+Goal_Name3=Supplies
+Goal_Desc3=It is necessary to gather supplies for the siege. Ask Paula and Samuel what is needed.
+Goal_Name4=Talk to Samuel
+Goal_Desc4=Everything is done for now. You should ask Samuel what to do next.
+Goal_Name5=Get the metal
+Goal_Desc5=Find a way through the Dark Forest and into the Forward Bunker. Retrieve the metal stored in there and bring it to the armory.
+
+# Extra goals
+
+Goal_Paula=Bring {{Rock}} to Paula: %d/40
+Goal_Paula_Verbose=Paula needs 40 rocks in a lorry at her side (brought: %d).
+Goal_Paula_Done=You brought 40 rocks to Paula.
+Goal_Samuel=Produce & store {{Bread}}: %d/25
+Goal_Samuel_Verbose=Samuel wants you to produce 25 loafs of bread and store them in the chests on the top floor (stored: %d).
+Goal_Samuel_Done=You have stored 25 loafs of bread for Samuel.
+Goal_Metal=Store {{Metal}} into the Armory: %d/20
+Goal_Metal_Cannon=20 {{Metal}}: Build a cannon now.
+Goal_Metal_Done=You retrieved 20 bars of metal. You should produce a cannon now.
+Goal_Mushroom=<i>Optional:</i> Find healing mushrooms.
+Goal_Mushroom_Verbose=Samuel asked you if you could look for special healing mushrooms in the Dark Forest. Look underground.

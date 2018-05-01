@@ -1,0 +1,2 @@
+Name=Barricade
+Description=Erected by your enemy.

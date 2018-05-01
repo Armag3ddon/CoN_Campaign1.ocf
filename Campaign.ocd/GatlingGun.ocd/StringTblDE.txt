@@ -1,0 +1,3 @@
+TxtNeedsAmmo=Die Gatling Gun hat keine Munition.
+Name=Gatling Gun
+Description=Halte [Benutzen] gedrückt, um Kugeln zu verschießen.

@@ -1,0 +1,3 @@
+TxtNeedsAmmo=Gatling gun has no ammo.
+Name=Gatling Gun
+Description=Needs bullets to operate, hold [Use] to aim and shoot.

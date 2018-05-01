@@ -1,0 +1,2 @@
+Name=Pionierbrücke
+Description=Ad hoc Brücke, die von Pionieren im Kampfgeschehen errichtet wird.

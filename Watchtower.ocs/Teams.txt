@@ -1,0 +1,17 @@
+[Teams]
+LastTeamID=2
+
+  [Team]
+  id=1
+  Name=$TeamDefenders$
+  PlayerCount=2
+  Players=2,3
+  Color=4294180864
+
+  [Team]
+  id=2
+  Name=$TeamAttackers$
+  PlayerCount=1
+  Players=1
+  Color=4278241280
+  MaxPlayer=1

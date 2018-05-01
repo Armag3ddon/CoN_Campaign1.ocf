@@ -1,0 +1,7 @@
+[DefCore]
+id=TowerCover
+Version=8,0
+Category=C4D_StaticBack
+Width=40
+Height=55
+Offset=-20,-27

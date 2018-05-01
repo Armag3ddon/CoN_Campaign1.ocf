@@ -1,0 +1,24 @@
+[PlayerInfoList]
+LastPlayerID=2
+
+  [Client]
+  ID=0
+  Flags=Initial
+
+    [Player]
+    Name="Republican Army"
+    Flags=Joined|AttributesFixed|NoScenarioInit|NoEliminationCheck
+    ID=2
+    Type=Script
+    Color=4285071615
+    Team=1
+    GameNumber=11
+
+    [Player]
+    Name="Kutorian Army"
+    Flags=Joined|AttributesFixed|NoScenarioInit|NoEliminationCheck
+    ID=1
+    Type=Script
+    Color=10223616
+    Team=2
+    GameNumber=10

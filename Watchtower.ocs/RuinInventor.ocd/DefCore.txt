@@ -1,0 +1,12 @@
+[DefCore]
+id=Ruin_InventorsLab
+Version=8,0
+Category=C4D_Structure
+Width=82
+Height=82
+Offset=-41,-41
+Vertices=7
+VertexX= 1,  1,-24,17,35, 32,-28
+VertexY=41,-41, 41,41,41,11,2
+VertexFriction=100,10,100,100,100,10,10
+Mass=500

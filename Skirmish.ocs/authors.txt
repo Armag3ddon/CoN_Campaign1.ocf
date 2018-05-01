@@ -1,0 +1,3 @@
+Sky.jpg:
+	https://www.pexels.com/photo/altitude-blue-sky-clouds-daylight-530158/
+	CC0 by eberhard grossgasteiger

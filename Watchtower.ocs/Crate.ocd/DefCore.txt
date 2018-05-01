@@ -1,0 +1,13 @@
+[DefCore]
+id=Campaign_Crate
+Category=C4D_None
+Width=20
+Height=20
+Offset=-10,-10
+Vertices=4
+VertexX=-8,-8,8,8
+VertexY=-8,8,-8,8
+VertexFriction=50,50,50,50
+StretchGrowth=1
+Rotate=1
+Mass=15

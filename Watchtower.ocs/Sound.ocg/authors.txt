@@ -1,0 +1,37 @@
+Licensing information on sounds
+
+Warning.ogg
+http://freesound.org/people/jobro/sounds/263652/
+by jobro (CC0)
+
+Crash.ogg
+http://freesound.org/people/bone666138/sounds/198876/
+by bone666138 (CC-BY 3.0)
+
+Screech.ogg, AttackScreech.ogg
+http://freesound.org/people/Reitanna/sounds/252257/
+by Reitanna (CC0)
+
+DeathScreech.ogg
+http://freesound.org/people/limetoe/sounds/271558/
+by limetoe (CC0)
+
+CannonTurn.ogg
+http://freesound.org/people/qubodup/sounds/188242/
+by qubodup (CC0)
+
+WilhelmScream.ogg
+https://archive.org/details/WilhelmScreamSample
+Public Domain
+
+CannonShot.ogg
+http://freesound.org/people/Isaac200000/sounds/184650/
+by Isaac200000 (CC0)
+
+DrumsOfWar.ogg
+http://freesound.org/people/Sclolex/sounds/209546/
+by Sclolex (CC0)
+
+Crack.ogg
+http://freesound.org/people/InspectorJ/sounds/333818/
+by InspectorJ (CC-BY 3.0)
