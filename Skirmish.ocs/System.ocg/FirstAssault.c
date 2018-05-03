@@ -1,4 +1,4 @@
-// The effect which manages the first battle when the pioneers build the bridge
+// The effects which manage the first battle when the pioneers build the bridge
 
 static const PreFirst_Battle = new Effect {
 	Construction = func() {
@@ -99,7 +99,7 @@ static const First_Battle = new Effect {
 				if (kutorian->FindContents(Blunderbuss)) // New bullets
 					if (!FindObject(Find_Container(kutorian), Find_Func("IsBullet")))
 						kutorian->CreateContents(LeadBullet);
-				if (kutorian->FindContents(Blunderbuss)) // New iron bombs!
+				if (kutorian->FindContents(GrenadeLauncher)) // New iron bombs!
 				{
 					kutorian.battle_grenade_cooldown--; // it takes some times to respawn an iron bomb, because OP
 					if (kutorian.battle_grenade_cooldown <= 0)
