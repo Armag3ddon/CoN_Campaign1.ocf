@@ -322,6 +322,12 @@ static const First_Battle = new Effect {
 		this.dynamite_cooldown = cooldown_start;
 		this.dynamite_cooldown_start = cooldown_start;
 	},
+	ClearArrows = func() {
+		var arrows = FindObjects(Find_ID(Arrow), Find_InRect(1120, 980, 1000, 350), Find_NoContainer());
+		for (var arrow in arrows)
+			if (!arrow->OnFire())
+				arrow->FadeOut(100, true);
+	},
 	OnClonkDeath = func(object clonk) {
 		if (IsValueInArray(this.kutorian, clonk))
 		{
@@ -362,6 +368,7 @@ static const First_Battle = new Effect {
 				AI->SetHome(pioneer, this.current_door->GetX(), this.current_door->GetY(), DIR_Right);
 				AI->SetGuardRange(pioneer, this.current_door->GetX() - 500, this.current_door->GetY() - 150, 650, 300);
 			}
+			this->ClearArrows();
 		}
 		if (this.battle_progress == 2) // First door taken
 		{
@@ -400,6 +407,7 @@ static const First_Battle = new Effect {
 		if (this.battle_progress == 3) // Second bridge done
 		{
 			Dialogue->MessageBoxAll("$CommandPaulaGoodJob$", paula, true);
+			this->ClearArrows();
 		}
 	},
 	GetDynamiteReadiness = func() {
