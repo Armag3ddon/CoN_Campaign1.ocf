@@ -164,7 +164,7 @@ local Lifting = new Effect {
 				return -1;
 
 			if (this.bridge.carried_by < 1)
-				this.bridge->Lifted(this);
+				this.bridge->Lifted(this.Target);
 
 			if (this.Target->GetAction() == "Tumble")
 			{
