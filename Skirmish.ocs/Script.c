@@ -39,7 +39,7 @@ static const g_skip_creation = false;
 static const g_skip_intro = true;
 static const g_skip_prisoner_dlg = true;
 static const g_skip_briefing = true;
-static const g_skip_tofirstbattle = false;
+static const g_skip_tofirstbattle = true;
 
 func Initialize()
 {
@@ -378,6 +378,8 @@ func SkipToFirstBattle()
 	for (var pioneer in g_pioneers)
 		RemoveEffect("NPC_Pioneer_Warmup", pioneer);
 	Sequence->FirstAssault_Stop();
+	g_bridges[0]->CreateObject(Sword, 0, -10);
+	g_bridges[0]->CreateObject(Shield, 0, -10);
 }
 
 func InitializePlayer(int player)

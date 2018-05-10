@@ -105,6 +105,10 @@ static const First_Battle = new Effect {
 					if (kutorian.battle_grenade_cooldown <= 0)
 					{
 						kutorian->CreateContents(IronBomb);
+						kutorian->GetAI().strategy = AI.ExecuteRanged;
+						kutorian->GetAI().weapon = kutorian->FindContents(GrenadeLauncher);
+						kutorian->GetAI().ranged = true;
+						kutorian->GetAI().ammo_check = AI.HasBombs;
 						kutorian.battle_grenade_cooldown = 140;
 					}
 				}
@@ -124,6 +128,14 @@ static const First_Battle = new Effect {
 						if (kutorian->GetY() > 1175)
 							if (kutorian->GetAlive())
 								kutorian->Kill(); // X(
+				for (var pioneer in g_pioneers) // Check for newly spawn pioneers, add AI
+					if (pioneer && !pioneer->PioneerIsMoving())
+						if (!pioneer->~GetAI())
+						{
+							AI->AddAI(pioneer);
+							AI->SetHome(pioneer, this.current_door->GetX(), this.current_door->GetY(), DIR_Right);
+							AI->SetGuardRange(pioneer, this.current_door->GetX() - 500, this.current_door->GetY() - 150, 650, 300);
+						}
 			}
 		}
 		if (this.newbridge) // Look for pioneers arriving at the rally point, ready to create a bridge
@@ -421,5 +433,12 @@ static const First_Battle = new Effect {
 		{
 			return !Random(25);
 		}
+	},
+	SafeCrossing = func() {
+		// An AI controlled clonk is asking if it's cool to advance on an enemy
+		if (this.battle_progress == 0 || this.battle_progress == 2)
+			// Crossing is unsafe during bridge construction!
+			return false;
+		return true;
 	}
 };
