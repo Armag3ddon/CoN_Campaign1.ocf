@@ -831,7 +831,7 @@ static const NPC_Pioneer_MoveTo = new Effect {
 		if (Distance(this.Target->GetX(), this.Target->GetY(), this.current_x, this.current_y) < 7)
 		{
 			this.stuck_time++;
-			if (this.stuck_time > 8) { // Clonk must be stuck at some kind of ledge, try stuff
+			if (this.stuck_time > 4) { // Clonk must be stuck at some kind of ledge, try stuff
 				if (this.Target->GetCommand() && !this.jumped) {
 					var comdir = COMD_DownLeft;
 					if (this.x > this.Target->GetX())
@@ -848,14 +848,14 @@ static const NPC_Pioneer_MoveTo = new Effect {
 					this.Target->SetCommand("MoveTo", nil, this.x, this.y);
 				}
 				// Still stuck? Even after attempting a jump?
-				if (this.stuck_time > 14)
+				if (this.stuck_time > 10)
 				{
 					// Try magic
 					this.Target->SetPosition(this.Target->GetX() + RandomX(-1,1), this.Target->GetY()-10);
 					this.magic = true;
 				}
 				// Still stuck? Even after magic has happened?
-				if (this.stuck_time > 20)
+				if (this.stuck_time > 15)
 				{
 					// Warp to target
 					this.Target->SetPosition(this.x, this.y);
@@ -1072,6 +1072,9 @@ static const NPC_Pioneer_DynamiteThrowing = new Effect {
 		if (this.Target->GetAlive() && this.club)
 			if (this.Target->IsAiming())
 				this.Target->CancelAiming(this.club);
+		if (this.fallback)
+			if (this.Target->GetAlive())
+				this.Target->PioneerMoveTo(g_pioneer_rally_point[0], g_pioneer_rally_point[1]);
 	},
 	CalculateClubAcceleration = func(object obj) {
 		var div = Club->ClubVelocityPrecision();
@@ -1109,5 +1112,30 @@ static const NPC_Pioneer_DynamiteThrowing = new Effect {
 			return lower_angle;
 		// No possible shooting angle.
 		return nil;
+	}
+};
+
+static const NPC_Kutor_LastDefender = new Effect {
+	Construction = func() {
+		this.stage = 0;
+	},
+	Timer = func() {
+		if (this.stage == 0)
+		{
+			if (this.Target->IsJumping())
+				return FX_OK;
+			this.Target->SetCommand("Walk", nil, RandomX(2322, 2354), 1090);
+			this.stage++;
+			return FX_OK;
+		}
+		if (this.stage == 1)
+		{
+			if (this.Target->GetCommand())
+				return FX_OK;
+			AI->AddAI(this.Target);
+			AI->SetHome(this.Target, RandomX(2322, 2354), 1090, DIR_Left);
+			AI->SetGuardRange(this.Target, 2020, 1050, 400, 200);
+			return -1;
+		}
 	}
 };

@@ -8,7 +8,7 @@
 static is_initialized, scen_goal;
 // Important NPCs
 static paula, paulas_dlg, samuel, samuels_dlg;
-static g_general, g_g_major, g_g_guard, g_entrance_guard, g_cook, g_gunners, g_gunny, g_prisoner, g_medic, g_corporal, g_soldiers, g_armorer, g_gate_guard, g_pioneers, g_assault;
+static g_general, g_g_major, g_g_guard, g_entrance_guard, g_cook, g_gunners, g_gunny, g_prisoner, g_medic, g_corporal, g_soldiers, g_armorer, g_gate_guard, g_pioneers, g_assault, g_pilots;
 static g_kutor_frontsoldier;
 // Important objects
 static g_bridges;
@@ -684,7 +684,12 @@ public func PioneersFallBack()
 {
 	for (var pioneer in g_pioneers)
 		if (pioneer)
-			pioneer->PioneerMoveTo(g_pioneer_rally_point[0], g_pioneer_rally_point[1]);
+		{
+			if (GetEffect("NPC_Pioneer_DynamiteThrowing", pioneer))
+				GetEffect("NPC_Pioneer_DynamiteThrowing", pioneer).fallback = true;
+			else
+				pioneer->PioneerMoveTo(g_pioneer_rally_point[0], g_pioneer_rally_point[1]);
+		}
 }
 
 public func OnClonkDeath(object clonk)

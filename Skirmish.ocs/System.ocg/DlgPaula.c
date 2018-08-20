@@ -145,3 +145,21 @@ func Dlg_Paula_Preparation8(object clonk)
 
 	return true;
 }
+
+/* First Assault done */
+
+// Called by the First Assault effect (see FirstAssault.c)
+func CheckForBattleFinished(object clonk)
+{
+	if (GetPlayerCount(C4PT_User) >= 1)
+	{
+		if (CreateMultiplayerWaitingRadius(this, 100, "BattleFinished", clonk))
+		{
+			return;
+		} else {
+			StartSequence("FirstAssaultDone", nil, clonk);
+		}
+	} else {
+		StartSequence("FirstAssaultDone", nil, clonk);
+	}
+}

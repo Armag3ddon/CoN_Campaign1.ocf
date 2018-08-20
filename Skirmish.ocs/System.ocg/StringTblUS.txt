@@ -140,6 +140,11 @@ CommandPaulaNewbie_Single=We are spotted. Newbie, quickly, attack them and prote
 CommandPaulaNewbie_Multi=We are spotted. Newbies, quickly, attack them and protect the pioneers!
 CommandPaulaCloseCombat=Pioneers! Prepare for close combat! Take that position!
 CommandPaulaGoodJob=Good job! They retreated. Let's get to building another bridge.
+CommandPaulaFreePrisoners=Get those prisoners out now!
+CommandPaulaKillKeeper=Get the dungeon keeper! Get the key!
+CommandPaulaTakeKey=Pick up that key! We need it to open the door.
+CommandPaulaOpenDoor=Quick. Take the key to the door and free the prisoners!
+CommandPaulaSafety=Get to safety, now. Everyone, get BACK!
 
 # Samuel Dialogue
 
@@ -441,5 +446,6 @@ PlayerRankFirst=Private
 PlayerRankSecond=Corporal
 PlayerRankThird=Sergeant
 SoldierName=Soldier
+PilotName=Pilot
 Kutorian1=Intruders! Alarm!
 PioneerNotInRange=Out of|range, Sir!

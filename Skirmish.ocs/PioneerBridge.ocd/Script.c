@@ -125,7 +125,6 @@ public func LostCarrier(object carrier)
 		SetPosition(GetX(), GetY()+5);
 
 	Halt();
-	GetEffect("First_Battle").maintainbridge = true;
 }
 
 local Lifting = new Effect {
@@ -166,6 +165,10 @@ local Lifting = new Effect {
 			if (this.bridge.carried_by < 1)
 				this.bridge->Lifted(this.Target);
 
+			if (this.bridge->GetX() < 1035)
+				if (this.Target->GetComDir() == COMD_Left)
+					this.bridge->Halt();
+
 			if (this.Target->GetAction() == "Tumble")
 			{
 				// Tumbling is bad. First off, stop the other carrier
@@ -202,6 +205,9 @@ public func Forward()
 public func Backward()
 {
 	if (carried_by < 2)
+		return;
+
+	if (GetX() <= 1035)
 		return;
 
 	carriers[0]->SetComDir(COMD_Left);
